@@ -29,10 +29,6 @@ Route::get('/login', function () {
 });
 
 Route::get('/', function () {
-    // return view('welcome');
-    \Artisan::call('route:cache');
-    dd("Cache is cleared");
-
     return view('home');
 });
 
@@ -48,7 +44,7 @@ Route::middleware(['isapproved'])->group(function () {
     Route::get('job', [App\Http\Controllers\HomeController::class, 'jobs'])->name('jobs');
     Route::get('/athletes', [App\Http\Controllers\HomeController::class, 'athletes'])->name('athletes');
     Route::get('/resources', [App\Http\Controllers\HomeController::class, 'resources'])->name('resources');
-    
+
     Route::get('/ali', function()
     {
         return 'Hello World';

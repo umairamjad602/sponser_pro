@@ -1,0 +1,130 @@
+/* hero-section */
+.hero-header-bg{
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.hero-section{
+    top: 0;
+   
+   
+    align-items: end;
+    display: flex;
+    height: 80vh;
+   
+}
+.hero-section h2{
+    color: #63AF31; 
+    font-family: 'Smooch Sans', sans-serif;
+    margin-bottom: 0;
+    letter-spacing: 1px;
+
+}
+.hero-section h1{
+    color: white;
+}
+.hero-section p{
+    color: white;
+    padding-bottom: 25px;
+    font-size: 22px;
+    
+}
+.hero-section .btn{
+    padding: 10px;
+}
+/* learn-sec */
+.learn-sec{
+    background: rgba(186, 255, 140, 0.08);
+}
+.learn-sec h4{
+    color: #63AF31;
+    font-weight: 600 !important;
+    font-size: 20px !important;
+}
+.learn-sec .btn{
+    color: #63AF31;
+    font-size: 18px;
+}
+.learn-img{
+    width: 60%;
+}
+/* solution-for-everyone */
+.accor-sec p{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+
+.accordion-button:not(.collapsed){
+    background-color: #F4F4F4 !important;
+    color: #63AF31 !important;
+    
+}
+.accordion-item{
+    border: none !important;
+    background-color: #F4F4F4 !important;
+   
+}
+.accordion-button{
+    background-color: #F4F4F4 !important;
+    font-weight: 700 !important;
+}
+
+/* carousel-sec */
+.carosel-sec{
+    background: rgba(186, 255, 140, 0.08);
+}
+.carosel-sec p{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.carousel-indicators [data-bs-target]{
+    background-color: #63AF31 !important;
+    width:15px !important;
+    height: 15px !important;
+    border-radius: 10px !important;
+}
+.proud-heading {
+    display: inline-block;
+    position: relative;
+
+}
+
+
+.proud-heading::after {
+    content: '';
+    width: 15%;
+    height: 4px;
+    position: absolute;
+    background:#63AF31;
+    bottom: 0;
+    left: calc(15% - 14%);
+}
+.carosel-sec h6{
+    font-size: 24px !important;
+    font-weight: 600 !important;
+}
+.carosel-sec p strong{
+    color: black;
+}
+/* download-app */
+.download-app{
+   
+    background-size: cover;
+    background-position: center;
+    
+}
+.download-app h6{
+    color: #63AF31;
+    font-size: 20px;
+    font-weight: 600;
+}
+.download-app h2{
+    color: white;
+    padding-left: 10%;
+    padding-right: 10%;
+}

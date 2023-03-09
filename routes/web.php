@@ -23,10 +23,6 @@ Route::get('/login', function () {
 });
 
 
- Route::get('clear_cache', function () {
-    \Artisan::call('cache:clear');
-    dd("Cache is cleared");
-});
 
 Route::get('/', function () {
     return view('home');

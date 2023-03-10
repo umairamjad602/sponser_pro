@@ -114,6 +114,9 @@
                     <h3 class="mt-5">
                         WELCOME
                     </h3>
+                    <div class="alert alert-success" id="user-done" style="display: none;" role="alert">
+                        A simple success alert—check it out!
+                    </div>
                     <h4>
                         Please signup to your account
                     </h4>
@@ -211,6 +214,11 @@
 
         </div>
     </div>
+
+    <script>
+        let url = datawindow.location.search.substring(1)
+        console.log(url);
+    </script>
 
 
 

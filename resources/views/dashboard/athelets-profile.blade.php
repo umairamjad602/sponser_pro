@@ -20,16 +20,15 @@
                             <div class="col-lg-12">
                                 <div class="row text-center">
                                     <div class="col-12 d-flex justify-content-between">
-                                        <a href="#link-copied"><img src="assets/images/send.png" alt="" class="img-fluid"></a>
-                                      <a href="edit-profile.html"><img src="assets/images/edit-profile.png" alt="" class="img-fluid" style="width:30px;"></a>
+                                        <a href="#link-copied"><img src="{{asset('front-end/images/send.png')}}" alt="" class="img-fluid"></a>
+                                      <a href="edit-profile.html"><img src="{{asset('front-end/images/edit-profile.png')}}" alt="" class="img-fluid" style="width:30px;"></a>
 
                                     </div>
-                                    <div class="col-12 my-3"><img src="assets/images/avatar.png" alt="" class="img-fluid user-img"></div>
+                                    <div class="col-12 my-3"><img src="{{asset('front-end/images/avatar.png')}}" alt="" class="img-fluid user-img"></div>
                                     <div class="col-12">
                                         <h6 class="title"><b>Jack Betts</b></h6>
                                         <p>Alabama State University</p>
                                         <p>Men's Basketball</p>
-
                                     </div>
                                     <div class="col-12 d-flex justify-content-between my-4">
                                         <h6 class="sub-title"><b>MOGL Ratings</b></h6>
@@ -49,7 +48,7 @@
 
                         <div class="col-12  ">
                             <div class="social-box d-flex align-items-center">
-                                <div><a href="#"><img src="assets/images/tweet.png" alt=""></a></div>
+                                <div><a href="#"><img src="{{asset('front-end/images/tweet.png')}}" alt=""></a></div>
                                 <div class="px-2 pt-2"><p><a href="#">jbetts21</a> <br> <span style="font-weight: bold; color: black;">5.4k</span> Followers</p>
                             </div>
 
@@ -58,7 +57,7 @@
                         </div>
                         <div class="col-12 ">
                             <div class="social-box d-flex align-items-center">
-                                <div><a href="#"><img src="assets/images/tiktok.png" alt=""></a></div>
+                                <div><a href="#"><img src="{{asset('front-end/images/tiktok.png')}}" alt=""></a></div>
                                 <div class="px-2 pt-2"><p ><a href="#">jbetts21</a> <br> <span style="font-weight: bold; color: black;">5.4k</span> Followers</p>
                             </div>
 
@@ -347,7 +346,7 @@
                                 <div class="col">
                                     <div class="row ">
                                         <div class="  col-12 social-media-statistics-col">
-                                            <img src="assets/images/insta.png" alt="">
+                                            <img src="{{asset('front-end/images/insta.png')}}" alt="">
 
                                             <div class="d-flex justify-content-between mt-4">
                                                 <div>
@@ -370,7 +369,7 @@
                                             </div>
                                         </div>
                                         <div class="  col-12 social-media-statistics-col">
-                                            <img src="assets/images/tweet.png" alt="">
+                                            <img src="{{asset('front-end/images/tweet.png')}}" alt="">
 
                                             <div class="d-flex justify-content-between mt-4">
                                                 <div>

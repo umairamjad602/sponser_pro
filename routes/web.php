@@ -29,6 +29,11 @@ Route::get('/login', function () {
 });
 
 
+Route::get('/anthelet-profile', function () {
+    return view('dashboard.athelets-profile');
+});
+
+
 
 Route::get('/', function () {
     return view('home');

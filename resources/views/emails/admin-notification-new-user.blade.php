@@ -63,11 +63,11 @@
                                             {{$first_name}} {{$last_name}} is Create Account</h1>
                                         <p
                                             style="box-sizing: border-box; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; position: relative; font-size: 16px; line-height: 1.5em; margin-top: 0; text-align: left;">
-                                            New user hase create new account. Following details here.</p>
+                                            Hello Admin, {{$first_name}} {{$last_name}} created a new account at sponsorpro please check your admin panel and deny or reject this user. Thanks</p>
                                         <p
                                             style="box-sizing: border-box; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; position: relative; font-size: 16px; line-height: 1.5em; margin-top: 0; text-align: left; color: #000;">
                                             Name: <b>{{$first_name}} {{$last_name}}</b> <br>
-                                            Email: <b>{{$email}}</b> <br>
+                                            Email: <b><a href="mailto:{{$email}}">{{$email}}</a> </b> <br>
                                             @if($is_athlete == 1)
                                             Type: <b>Athlete</b>
                                             @else

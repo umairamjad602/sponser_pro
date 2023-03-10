@@ -23,6 +23,10 @@ return new class extends Migration
             $table->tinyInteger('is_approved')->default(0)->comment("0 pending,1 approved,2 denied");
             $table->rememberToken();
             $table->timestamps();
+
+            $table->engine = 'InnoDB';
+            $table->charset = 'utf8';
+            $table->collation = 'utf8_general_ci';
         });
     }
 

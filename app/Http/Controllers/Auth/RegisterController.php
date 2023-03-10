@@ -7,9 +7,11 @@ use App\Models\User;
 use Illuminate\Foundation\Auth\RegistersUsers;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
+use Illuminate\Support\Facades\Mail;
 
 class RegisterController extends Controller
 {
+    public $data;
     /*
     |--------------------------------------------------------------------------
     | Register Controller
@@ -65,6 +67,11 @@ class RegisterController extends Controller
      */
     protected function create(array $data)
     {
+        $this->data = $data;
+        MaiL::send('emails.admin-notification-new-user', $this->data, function ($message) {
+            $message->to(env('ADMIN_EMAIL'))
+            ->subject($this->data['first_name'].' '.$this->data['last_name'].' new User');
+        });
         return User::create([
             'first_name' => $data['first_name'],
             'last_name' => $data['last_name'],

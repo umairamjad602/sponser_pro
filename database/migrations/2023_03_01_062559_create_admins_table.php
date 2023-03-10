@@ -18,6 +18,9 @@ return new class extends Migration
             $table->string('password');
             $table->boolean('image')->nullable();
 
+            $table->engine = 'InnoDB';
+            $table->charset = 'utf8';
+            $table->collation = 'utf8_general_ci';
         });
     }
 

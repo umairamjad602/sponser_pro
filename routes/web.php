@@ -18,6 +18,12 @@ use Illuminate\Support\Facades\Route;
 Route::get('jobs', function () {
     return view('dashboard.jobs');
 });
+Route::get('athelets', function () {
+    return view('dashboard.athelets');
+});
+Route::get('post-job', function () {
+    return view('dashboard.post-job');
+});
 Route::get('/login', function () {
     return view('auth.login');
 });

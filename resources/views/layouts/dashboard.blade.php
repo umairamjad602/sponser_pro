@@ -73,21 +73,15 @@
                 </div>
                 <div class="col-12 d-flex justify-content-end mt-5">
                     <div class="row">
-                        <div class="col-auto"><a class="btn Continue-btn " href="post-job.html">Continue <i
+                        <div class="col-auto"><a class="btn Continue-btn " href="{{ url('post-job') }}">Continue <i
                                     class="fa-solid fa-circle-chevron-right"
                                     style="position:relative; margin-left: 80px;"></i></a></div>
                         <div class="col-auto"> <a class="btn close-btn">Cancel <i
                                     class="fa-solid fa-circle-chevron-right"
                                     style="position:relative; margin-left: 90px;"></i></a></div>
                     </div>
-
-
-
                 </div>
-
-
             </div>
-
         </div>
     </div>
     <!-- popup end -->
@@ -317,7 +311,7 @@
                     <ul class="app-menu list-unstyled accordion" id="menu-accordion">
                         <li class="nav-item">
                             <!--//Bootstrap Icons: https://icons.getbootstrap.com/ -->
-                            <a class="nav-link " href="">
+                            <a class="nav-link " href="{{ url('/home') }}">
                                 <span class="nav-icon">
                                     <img src="{{ asset('front-end/assets/images/sponser-icon.png') }}"
                                         alt="">
@@ -340,7 +334,7 @@
                         <!--//nav-item-->
                         <li class="nav-item">
                             <!--//Bootstrap Icons: https://icons.getbootstrap.com/ -->
-                            <a class="nav-link" href="">
+                            <a class="nav-link" href="{{ url('/athelets') }}">
                                 <span class="nav-icon">
                                     <i class="fa-solid fa-user"></i>
                                 </span>
@@ -353,7 +347,7 @@
 
                         <li class="nav-item">
                             <!--//Bootstrap Icons: https://icons.getbootstrap.com/ -->
-                            <a class="nav-link" href="">
+                            <a class="nav-link" href="{{ url('/resources') }}">
                                 <span class="nav-icon">
                                     <svg width="1em" height="1em" viewBox="0 0 16 16"
                                         class="bi bi-bar-chart-line" fill="currentColor"

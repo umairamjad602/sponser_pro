@@ -33,6 +33,9 @@ Route::get('/login', function () {
 Route::get('/', function () {
     return view('home');
 });
+Route::get('/home', function () {
+    return view('dashboard.home');
+});
 
 Auth::routes(['verify' => true]);
 

@@ -117,7 +117,7 @@
                     </h3>
                     @if(Session::get('resgiter') == true)
                     <div class="alert alert-success" id="user-done" role="alert">
-                        You have resgister successfully. When admin <b>Approve</b> or <b>Reject</b> your account will inform you by given email.
+                    Your account got registered successfully. Wait for the admin approval. You will be notified at your email. Thanks
                     </div>
                     <p style="display: none;">
                         {{Session::remove('resgiter')}}

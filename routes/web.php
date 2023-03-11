@@ -109,6 +109,10 @@ Route::get('/athelets-view-profile', function () {
     return view('dashboard.athelets-view-profile');
 });
 
+Route::get('/profile-screen', function () {
+    return view('dashboard.profile-screen');
+});
+
 
 Route::get('/', function () {
     return view('home');

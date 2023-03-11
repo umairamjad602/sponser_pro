@@ -90,7 +90,7 @@
 			</div>
 			<div class="row g-0 d-md-flex justify-content-md-end  mt-md-5 mt-3">
 				<div class="col-auto d-md-flex">
-					<a href="edit-profile.html" class="btn Continue-btn d-flex  align-items-center" type="button" style="width:250px;">
+					<a href="{{url('edit-profile')}}" class="btn Continue-btn d-flex  align-items-center" type="button" style="width:250px;">
 						<div class="text-start">Complate your profile</div>
 						<div class="ms-auto  d-flex align-items-center"><i class="fa-solid fa-circle-chevron-right" style="font-size:25px;"></i></div>
 

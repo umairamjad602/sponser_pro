@@ -2,56 +2,25 @@
 @section('style')
 @endsection
 @section('content')
-<div class="app-content pt-3 p-md-3 p-lg-4 container-fluid">
+
+<div class="app-content pt-3 p-md-3 p-lg-4 ">
 		    <div style="padding:2%;">
 			    <div class="row title-row g-3 mb-4 py-3 align-items-center justify-content-between">
 				    <div class="col-auto mt-0 d-flex" >
-			            <h1 class="app-page-title mb-0">Create a job post </h1>
+			            <h1 class="app-page-title mb-0">Disclose your Non-SponserPro deals </h1>
 				    </div>
 
 			    </div><!--//row-->
-
-			    <div class="row  ">
-                    <!-- title-and-steps -->
-					 <div class="row g-0 py-3 border-green d-md-flex align-items-center">
-						<div class="col-md-3">
-							<h1 class="app-page-sub-title "> Title & Details </h1>
-						</div>
-						<div class="col-md-9  d-flex justify-content-md-end">
-								    <ul class="nav nav-tabs" id="myTab" role="tablist">
-                        <li class="nav-item" role="presentation">
-                          <button class="nav-link active" id="step1-tab" data-bs-toggle="tab" data-bs-target="#step1" type="button" role="tab" aria-controls="step1" aria-selected="true" >Step<span class="job-count">1</span></button>
-                        </li>
-                        <li class="nav-item" role="presentation">
-                          <button class="nav-link" id="step2-tab" data-bs-toggle="tab" data-bs-target="#step2" type="button" role="tab" aria-controls="step2" aria-selected="false" disabled>Step <span class="job-count">2</span></button>
-                        </li>
-                        <li class="nav-item" role="presentation">
-                          <button class="nav-link" id="step3-tab" data-bs-toggle="tab" data-bs-target="#step3" type="button" role="tab" aria-controls="step3" aria-selected="false" disabled>Step<span class="job-count">3</span></button>
-                        </li>
-
-                      </ul>
-						</div>
-					</div>
-
 					<div class="row posted-jobs p-0">
 						<div class="col-12 ">
-							<div class="tab-content py-4">
-
-
-                                <!-- step1 -->
-								<div class="tab-pane active " id="step1" role="tabpanel" aria-labelledby="step1-tab">
                                     <div class="row p-0 g-0 g-md-4">
                                         <!-- col -->
                                         <div class="col-lg-6">
                                             <div class="mb-3">
                                                 <label for="exampleFormControlInput1" class="form-label">Job name *</label>
-                                                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Job name" required>
+                                                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter Job name" required>
                                               </div>
-                                              <p>Here are some great examples:</p>
-                                              <ul>
-                                                <li>Instagram Product Promotion</li>
-                                                <li>In-Person Autograph Session</li>
-                                              </ul>
+
                                         </div>
                                         <!-- col -->
                                         <div class="col-lg-6">
@@ -62,55 +31,56 @@
                                                 <option value="2">Two</option>
                                                 <option value="3">Three</option>
                                               </select>
-                                              <p>Let's categorize your job, which help us personalize your job details and match your job relevants athlete and team. Here are some suggestions based on your job title:</p>
-                                        </div>
-                                        <!-- col -->
-                                        <div class="col-12">
-                                            <label>How many athlete(s) do you need for this job? *</label>
-                                            <div class="row gx-3">
-												<div class="col-lg-6 pt-3 ">
-													<div class="form-check  d-flex align-items-center no-of-athlets">
-														<img src="assets/images/ath-1.png" alt="">
-														<h6 class="mb-0 px-2">Preferred Payment Option</h6>
-														<input class="form-check-input ms-auto me-2" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
-
-
-													  </div>
-												</div>
-												<div class="col-lg-6 pt-3 ">
-													<div class="form-check  d-flex align-items-center no-of-athlets">
-														<img src="assets/images/multi-ath.png" alt="">
-														<h6 class="mb-0 px-2">Preferred Payment Option</h6>
-														<input class="form-check-input ms-auto me-2" type="radio" name="flexRadioDefault" id="flexRadioDefault2" >
-
-
-													  </div>
-												</div>
-
-                                            </div>
-
 
                                         </div>
+                                          <!-- col -->
+                                          <div class="col-lg-6">
+                                            <div class="mb-3">
+                                                <label for="exampleFormControlInput1" class="form-label">Business (Brand) name*</label>
+                                                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter Business (Brand) name" required>
+                                              </div>
+
+                                        </div>
+                                          <!-- col -->
+                                          <div class="col-lg-6">
+                                            <div class="mb-3">
+                                                <label for="exampleFormControlInput1" class="form-label">Platform name *</label>
+                                                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Like UpWork, Fiver..." required>
+                                              </div>
+
+                                        </div>
+                                          <!-- col -->
+                                          <div class="col-lg-6">
+                                            <div class="mb-3">
+                                                <label for="exampleFormControlInput1" class="form-label">Brand contact email*</label>
+                                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter Brand contact email" required>
+                                              </div>
+
+                                        </div>
+                                          <!-- col -->
+                                          <div class="col-lg-6">
+                                            <div class="mb-3">
+                                                <label for="exampleFormControlInput1" class="form-label">Job Applied Date *</label>
+                                                <input type="date" class="form-control" id="exampleFormControlInput1" placeholder="Job name" required>
+                                              </div>
+
+                                        </div>
+                                          <!-- col -->
+                                          <div class="col-lg-6">
+                                            <div class="mb-3">
+                                                <label for="exampleFormControlInput1" class="form-label">Date of Signed Agreement*</label>
+                                                <input type="date" class="form-control" id="exampleFormControlInput1" placeholder="Job name" required>
+                                              </div>
+
+                                        </div>
+
                                         <!-- col -->
                                         <div class="col-12">
                                             <div class="mb-3">
                                                 <label for="exampleFormControlTextarea1" class="form-label">Job Description</label>
                                                 <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Description" rows="5"></textarea>
                                               </div>
-                                              <p>A good description includes:</p>
-                                              <ul>
-                                                <li>What the deliverable is</li>
-                                                <li>Type of athlete or team you’re looking for</li>
-                                                <li>Anything unique about the project, team, or your company</li>
-                                              </ul>
-                                              <label for="exampleFormControlselect" class="form-label">What additional skills and expertise are important to you?</label>
-                                              <select class="form-select " aria-label="Default select example">
-                                                  <option selected>Select Category</option>
-                                                  <option value="1">One</option>
-                                                  <option value="2">Two</option>
-                                                  <option value="3">Three</option>
-                                                </select>
-                                                <p class="my-4">Type your preferred skill and hit enter</p>
+
                                         </div>
                                         <!-- col -->
                                         <!-- deliverables -->
@@ -129,7 +99,7 @@
                                                       </div>
                                                 </div>
                                                 <div class="col-lg-6">
-                                                    <label>What additional skills and expertise are important to you?</label>
+                                                    <label>How would you like to pay the athlete for this deliverable?</label>
                                                     <ul class="nav nav-tabs mt-2" id="myTab" role="tablist">
                                                         <li class="nav-item" role="presentation">
                                                           <button class="nav-link active" id="cash-tab" data-bs-toggle="tab" data-bs-target="#cash" type="button" role="tab" aria-controls="cash" aria-selected="true">Cash</button>
@@ -239,26 +209,22 @@
                                             </div>
                                             <div class="my-2">
                                                 <label for="exampleFormControlTextarea1" class="form-label">Specifics on Exclusive/Non Exclusive Deal</label>
-                                                <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Specifics on Exclusive/Non Exclusive Deal" rows="13"></textarea>
+                                                <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Specifics on Exclusive/Non Exclusive Deal" rows="7"></textarea>
                                               </div>
 
                                         </div>
                                         <!-- col additional-projects -->
                                         <div class="col-lg-6 my-3">
                                             <div class=" d-flex align-items-center border-green py-3">
-                                                 <h3 class="app-page-title mb-0">Additional project files (optional)</h3>
+                                                 <h3 class="app-page-title mb-0">Upload Contract or Agreements</h3>
 
                                             </div>
-                                            <p class="mt-5">Here are some great examples:</p>
-                                            <ul>
-                                              <li>Social media post that you want shared</li>
-                                              <li>Direction to place of business</li>
-                                              <li>Marketing Materials</li>
-                                            </ul>
-											<div class="text-center bg-white py-5" style="border-radius: 8px;">
+
+											<div class="text-center bg-white py-5 mt-5" style="border-radius: 8px;">
+
 												<label for="file-input">
 													<img src="assets/images/cloud-computing.png" alt="" class="img-fluid ">
-													<p>Drag or upload image</p>
+													<p>Drag or upload deal screen shots</p>
 												  </label>
 												  <input id="file-input" type="file" class="d-none"/>
 											</div>
@@ -266,11 +232,32 @@
 
 
                                         </div>
+                                        <!--  -->
+                                        <div>
+                                            <label for="">Job status :</label>
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1" checked>
+                                                <label class="form-check-label" for="inlineRadio1">Hired</label>
+                                              </div>
+                                              <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                                                <label class="form-check-label" for="inlineRadio2">On Going</label>
+                                              </div>
+                                              <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3" >
+                                                <label class="form-check-label" for="inlineRadio3">Completed</label>
+                                              </div>
+                                        </div>
+
                                         <div class="row g-0">
                                             <div class="col d-flex justify-content-end">
+												<a href="misc.html" class="btn  d-flex cancel-btn me-3 align-items-center" type="button" >
+                                                    <div class="text-start">Cancel</div>
+                                                    <div class="ms-auto  d-flex align-items-center"><i class="fa-solid fa-circle-chevron-right" style="font-size:25px;"></i></div>
 
-													<a href="{{url('misc')}}" class="btn next-step-btn d-flex  align-items-center" type="button">
-														<div class="text-start">Next step</div>
+                                                </a>
+													<a href="misc.html" class="btn next-step-btn d-flex  align-items-center" type="button">
+														<div class="text-start">Submit</div>
 														<div class="ms-auto  d-flex align-items-center"><i class="fa-solid fa-circle-chevron-right" style="font-size:25px;"></i></div>
 
 													</a>
@@ -279,14 +266,14 @@
                                         </div>
                                     </div>
 
-								</div>
 
 
 
 
 
 
-							  </div>
+
+
 						</div>
 					</div>
 
@@ -298,7 +285,7 @@
 
 
 
-			    </div>
+
 		    </div><!--//container-fluid-->
 	    </div><!--//app-content-->
 @endsection

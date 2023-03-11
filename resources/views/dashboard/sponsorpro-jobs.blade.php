@@ -14,7 +14,7 @@
                     <div class="col-12 text-center py-5 ">
                         <p>You don't have any links to display.
                             Click the button below to add. to add one.</p>
-                            <a href="add-new-link.html" class="btn view-job-btn">Add New Link</a>
+                            <a href="{{url('add-new-link')}}" class="btn view-job-btn">Add New Link</a>
 
 
                     </div>

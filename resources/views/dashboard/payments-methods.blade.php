@@ -72,7 +72,7 @@
 		    <div class="container-fluid " style="padding:2%;">
                 <div class="row ">
                     <!-- brands-coverpic-col -->
-                    <div class="col-12 brands-profile-cover" style="background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url({{asset('front-end/profile-bg.png')}});">
+                    <div class="col-12 brands-profile-cover" style="background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url({{asset('front-end/images/profile-bg.png')}});">
 
                     </div>
 

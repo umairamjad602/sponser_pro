@@ -22,7 +22,7 @@
                                    								</div><!--//search-box-->
                                 <div class=" col-12 col-sm-auto">
 
-                                    <a href="disclose-deals.html" class="btn view-job-btn" style="border-radius: 8px; width: 100%;">Disclose non-SponserPro deals</a>
+                                    <a href="{{url('disclose-deal')}}" class="btn view-job-btn" style="border-radius: 8px; width: 100%;">Disclose non-SponserPro deals</a>
 								</div>
 
 

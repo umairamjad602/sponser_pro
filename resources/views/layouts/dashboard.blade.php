@@ -114,7 +114,7 @@
 						<!-- athlete-btn -->
 						<a class="btn post-job-btn " href="#post-job" role="button">Post a job <i class="fa-solid fa-plus"></i></a>
 						<div class="app-utility-item">
-				            <a href="chat.html" title="Chat">
+				            <a href="{{url('chat')}}" title="Chat">
 					            <!--//Bootstrap Icons: https://icons.getbootstrap.com/ -->
 					           <img src="{{asset('front-end/images/chat-icon.png')}}" alt="" style="width:30px;">
 					        </a>
@@ -218,10 +218,10 @@
 								<li><a class="dropdown-item" href="{{url('/disclosed-jobs')}}">  <img src="{{asset('front-end/images/disclosed-jobs.png')}}" style="width:35px;" alt="" class="img-fluid pe-2">My Disclosed Jobs</a></li>
 								<li><a class="dropdown-item" href="{{url('/sponsorpro-jobs')}}">  <img src="{{asset('front-end/images/link.png')}}" style="width:35px;" alt="" class="img-fluid pe-2">My SponserPro Link</a></li>
 								<!-- athletes-options -->
-								<li><a class="dropdown-item" href="{{url('/sponsorpro-jobs')}}"> <img src="{{asset('front-end/images/my-posted-jobs.png')}}" alt="" class="img-fluid pe-2">My Posted Jobs</a></li>
+								<li><a class="dropdown-item" href="{{url('/my-posted-jobs')}}"> <img src="{{asset('front-end/images/my-posted-jobs.png')}}" alt="" class="img-fluid pe-2">My Posted Jobs</a></li>
 								<li><a class="dropdown-item" href="{{url('/payments-methods')}}"> <img src="{{asset('front-end/images/my-payment.png')}}" alt="" class="img-fluid pe-2" >My Payment</a></li>
 								<li><a class="dropdown-item" href="{{url('/my-payments')}}"> <img src="{{asset('front-end/images/payment-history-icon.png')}}" alt="" class="img-fluid pe-2">Payment History</a></li>
-								<li><a class="dropdown-item" href="#logout"><img src="{{asset('front-end/images/logout-icon.png')}}" alt="" class="img-fluid pe-2">Log Out</a></li>
+								<li><a class="dropdown-item" href="{{url('/')}}"><img src="{{asset('front-end/images/logout-icon.png')}}" alt="" class="img-fluid pe-2">Log Out</a></li>
 							</ul>
 			            </div><!--//app-user-dropdown-->
 		            </div><!--//app-utilities-->
@@ -235,7 +235,7 @@
             <div class="sidepanel-inner d-flex flex-column">
                 <a href="#" id="sidepanel-close" class="sidepanel-close d-xl-none">&times;</a>
                 <div class="app-branding">
-                    <a class="app-logo" href="index.html"><img class="logo-icon me-2"
+                    <a class="app-logo" href="{{url('/home')}}"><img class="logo-icon me-2"
                             src="{{ asset('front-end/assets/images/logo.png') }}" alt="logo"></a>
 
                 </div>
@@ -305,6 +305,12 @@
                 <div class="app-sidepanel-footer">
                     <nav class="app-nav app-nav-footer">
                         <ul class="app-menu footer-menu list-unstyled">
+                        <li class="nav-item ">
+								<h6 class="nav-link-text" >Refer An Athlete</h6>
+									<p>Refer An Athlete, Get 5$</p>
+						<a  href="{{url('anthelet-profile')}}#referrals" role="button"><i class="fa-solid fa-circle-plus" style="color: #63AF31; font-size: 30px;"></i></a>
+
+							</li>
                             <li class="nav-item">
                                 <!--//Bootstrap Icons: https://icons.getbootstrap.com/ -->
 

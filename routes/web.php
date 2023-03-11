@@ -57,6 +57,50 @@ Route::get('/anthelet-profile', function () {
     return view('dashboard.athelets-profile');
 });
 
+Route::get('/chat', function () {
+    return view('dashboard.chat');
+});
+
+Route::get('/edit-profile', function () {
+    return view('dashboard.edit-profile');
+});
+
+Route::get('/manage-athalets-profile', function () {
+    return view('dashboard.manage-athalets-profile');
+});
+
+Route::get('/add-new-link', function () {
+    return view('dashboard.add-new-link');
+});
+
+Route::get('/disclose-deal', function () {
+    return view('dashboard.disclose-deal');
+});
+
+Route::get('/my-posted-jobs', function () {
+    return view('dashboard.my-posted-jobs');
+});
+
+Route::get('/view-details', function () {
+    return view('dashboard.view-details');
+});
+
+Route::get('/misc', function () {
+    return view('dashboard.misc');
+});
+
+Route::get('/misc2', function () {
+    return view('dashboard.misc2');
+});
+
+Route::get('/visibilty', function () {
+    return view('dashboard.visibilty');
+});
+
+Route::get('/posted-job-revew', function () {
+    return view('dashboard.posted-job-revew');
+});
+
 
 
 Route::get('/', function () {

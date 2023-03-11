@@ -22,7 +22,7 @@
                                    								</div><!--//search-box-->
                                 <div class=" col-12 col-sm-auto">
 
-                                    <a href="disclose-deals.html" class="btn view-job-btn" style="border-radius: 8px; width: 100%;">Disclose non-SponserPro deals</a>
+                                    <a href="{{url('disclose-deal')}}" class="btn view-job-btn" style="border-radius: 8px; width: 100%;">Disclose non-SponserPro deals</a>
 								</div>
 
 
@@ -73,19 +73,19 @@
 							<div class="tab-content py-5">
 								<div class="tab-pane active text-center" id="jobs" role="tabpanel" aria-labelledby="jobs-tab">
 
-								<img src="assets/images/postedjob-character.png" alt="" class="img-fluid">
+								<img src="{{asset('front-end/images/postedjob-character.png')}}" alt="" class="img-fluid">
 								<h1>Ready to get paid? Find opportunities <a href="jobs.html" style="color: #63AF31;">here.</a> </h1>
 
 								</div>
 								<div class="tab-pane  text-center" id="pending" role="tabpanel" aria-labelledby="pending-tab">
 
-									<img src="assets/images/postedjob-character.png" alt="" class="img-fluid">
+									<img src="{{asset('front-end/images/postedjob-character.png')}}" alt="" class="img-fluid">
 									<h1>Ready to get paid? Find opportunities <a href="jobs.html" style="color: #63AF31;">here.</a> </h1>
 
 									</div>
                                     <div class="tab-pane  text-center" id="applied" role="tabpanel" aria-labelledby="applied-tab">
 
-                                        <img src="assets/images/postedjob-character.png" alt="" class="img-fluid">
+                                        <img src="{{asset('front-end/images/postedjob-character.png')}}" alt="" class="img-fluid">
                                         <h1>Ready to get paid? Find opportunities <a href="jobs.html" style="color: #63AF31;">here.</a> </h1>
 
                                         </div>
@@ -93,34 +93,34 @@
 
 									<div class="tab-pane  text-center" id="hired" role="tabpanel" aria-labelledby="hired-tab">
 
-										<img src="assets/images/postedjob-character.png" alt="" class="img-fluid">
+										<img src="{{asset('front-end/images/postedjob-character.png')}}" alt="" class="img-fluid">
 										<h1>Ready to get paid? Find opportunities <a href="jobs.html" style="color: #63AF31;">here.</a> </h1>
 
 										</div>
 
 										<div class="tab-pane text-center" id="ongoing" role="tabpanel" aria-labelledby="ongoing-tab">
 
-											<img src="assets/images/postedjob-character.png" alt="" class="img-fluid">
+											<img src="{{asset('front-end/images/postedjob-character.png')}}" alt="" class="img-fluid">
 											<h1>Ready to get paid? Find opportunities <a href="jobs.html" style="color: #63AF31;" >here.</a> </h1>
 
 											</div>
 
 											<div class="tab-pane text-center" id="payment" role="tabpanel" aria-labelledby="payment-tab">
 
-												<img src="assets/images/postedjob-character.png" alt="" class="img-fluid">
+												<img src="{{asset('front-end/images/postedjob-character.png')}}" alt="" class="img-fluid">
                                                 <h1>Ready to get paid? Find opportunities <a href="jobs.html" style="color: #63AF31;">here.</a> </h1>
 
 												</div>
 
 												<div class="tab-pane text-center" id="completed" role="tabpanel" aria-labelledby="completed-tab">
 
-													<img src="assets/images/postedjob-character.png" alt="" class="img-fluid">
+													<img src="{{asset('front-end/images/postedjob-character.png')}}" alt="" class="img-fluid">
 													<h1>Ready to get paid? Find opportunities <a href="jobs.html" style="color: #63AF31;">here.</a> </h1>
 
 													</div>
                                                     <div class="tab-pane text-center" id="not-hired" role="tabpanel" aria-labelledby="not-hired-tab">
 
-                                                        <img src="assets/images/postedjob-character.png" alt="" class="img-fluid">
+                                                        <img src="{{asset('front-end/images/postedjob-character.png')}}" alt="" class="img-fluid">
                                                         <h1>Ready to get paid? Find opportunities <a href="jobs.html" style="color: #63AF31;">here.</a> </h1>
 
                                                         </div>
@@ -141,20 +141,20 @@
 
 				    </div>
                     <div class="apply-job-right-boxes">
-                        <img src="assets/images/tiktok-light.svg" alt="" class="img-fluid" style="width:35px;">
-                        <a href="edit-profile.html">Add TikTok Link</a>
+                        <img src="{{asset('front-end/images/tiktok-light.svg')}}" alt="" class="img-fluid" style="width:35px;">
+                        <a href="{{url('edit-profile')}}">Add TikTok Link</a>
                     </div >
                     <div class="apply-job-right-boxes">
-                        <img src="sponser-favicon.png" alt="" class="img-fluid" style="width:35px;">
-                        <a href="manage-athlete-profile.html#myinterests">Setup MyInterests</a>
+                        <img src="{{asset('front-end/sponser-favicon.png')}}" alt="" class="img-fluid" style="width:35px;">
+                        <a href="{{url('manage-athalets-profile')}}#myinterests">Setup MyInterests</a>
                     </div>
                     <div class="apply-job-right-boxes">
-                        <img src="sponser-favicon.png" alt="" class="img-fluid" style="width:35px;">
-                        <a href="jobs.html">Ready to get paid?</a>
+                        <img src="{{asset('front-end/sponser-favicon.png')}}" alt="" class="img-fluid" style="width:35px;">
+                        <a href="{{url('jobs')}}">Ready to get paid?</a>
                     </div>
 					<div class="apply-job-right-boxes">
-                        <img src="assets/images/chat-support.svg" alt="" class="img-fluid" style="width:35px;">
-                        <a href="chat.html">Contact SponserPro</a>
+                        <img src="{{asset('front-end/images/chat-support.svg')}}" alt="" class="img-fluid" style="width:35px;">
+                        <a href="{{url('chat')}}">Contact SponserPro</a>
                     </div>
 
                 </div>

@@ -2,6 +2,18 @@
 *{
     font-family: 'Poppins', sans-serif;
 }
+::-webkit-input-placeholder {
+    font-size: 13px;
+  }
+  ::-moz-placeholder {
+    font-size: 13px;
+  }
+  :-ms-input-placeholder {
+    font-size: 13px;
+  }
+  ::placeholder {
+    font-size: 13px;
+  }
 .athletes-card .card-head{
     background-repeat: no-repeat;
     background-size: cover;
@@ -63,6 +75,7 @@
     visibility: hidden;
     opacity: 0;
     z-index: 999;
+    overflow-y: scroll;
   }
   .popup-overlay:target {
     visibility: visible;
@@ -95,6 +108,7 @@
     border: 1px solid #F82746;
     padding: 15px;
     margin-bottom: 10px;
+    background-color: #FAFAFA;
    
     border-radius: 10px;
   }
@@ -104,9 +118,10 @@
     color: black;
   }
   .popup-btn-red{
-    color: white;
-    background-color:#F82746 ;
+    color: white !important;
+    background-color:#F82746 !important;
     width: 120px;
+    
   }
   .popup-btn-red:hover{
     color:#F82746 ;
@@ -120,7 +135,7 @@
 /* dashboard-athelete proflie */
 .title{
     font-size: 20px;
-    font-weight: 500;
+    font-weight: bold;
     color: black;
 }
 .sub-title{
@@ -151,12 +166,34 @@
 .Social-media a{
     margin-right: 15px;
 }
+.social-followers{
+    background-color: white;
+    border-radius: 8px;
+    padding: 15px 10px;
+}
+.social-followers-btn{
+    padding: 12px;
+    border-radius: 8px;
+    background-color: #F5F5F5;
+    color: #C3C3C3;
+    border: 1px solid #63AF31;
+
+}
+.social-followers-btn:hover{
+   
+    background-color: transparent;
+    color:#63AF31;
+    border: 1px solid #63AF31;
+
+}
+
 /* nav-tabs */
 .nav-tabs{
     border: none !important;
 }
 .nav-item{
-    margin-left: 10px;
+    margin-right: 15px;
+    margin-bottom: 10px;
 }
 .nav-item button{
     border: none !important;
@@ -239,10 +276,10 @@ color: #8D8D8D;
     border: 1px solid #63AF31;
     color: #63AF31;
 }
-.download-btn .download-icon{
+/* .download-btn .download-icon{
     position: relative;
     margin-left: 50px;
-}
+} */
 
 
 /* sponser-pro-tab */
@@ -280,6 +317,94 @@ color: #8D8D8D;
 
     
 }
+.brands-posted-job a{
+    font-size: 14px;
+    font-weight: 300;
+    
+
+}
+.brands-posted-job .pending{
+    color: #00D2FF;
+}
+.brands-posted-job .invite-athletes, .brands-posted-job .view-applications{
+    text-decoration: underline;
+    color: #FF5800;
+
+}
+.brands-posted-job .job-name, .invited{
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 1px;
+
+}
+.brands-posted-job .date{
+    font-size: 14px;
+    font-weight: 300 !important;
+    color: #8D8D8D;
+}
+.brands-posted-job .dropdown-menu .dropdown-item{
+    padding: 2px 10px;
+}
+.brands-posted-job .dropdown-menu{
+    background-color: #F3F3F3;
+}
+.brands-posted-job .dropdown-item{
+    color: #777777;
+   
+}
+.brands-posted-job .dropdown-item:hover{
+    color: #63AF31;
+    background-color: transparent;
+   
+}
+/* view profile */
+.bulk-pay-btn{
+    background: rgba(255, 76, 0, 0.25);
+border: 1px solid #FF4C00;
+border-radius: 8px;
+color:#FF4C00;
+
+}
+.bulk-pay-btn:hover{
+    background: transparent;
+border: 1px solid #FF4C00;
+border-radius: 8px;
+color:#FF4C00;
+
+}
+.posted-job-review #management select{
+    background-color: white !important;
+}
+.view-detail-athletes-cards{
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+}
+.view-detail-athletes-cards:hover{
+    border: 1px solid #63AF31;
+}
+.view-detail-athletes-cards .date, .view-detail-athletes-cards p{
+    font-weight: 300 !important;
+    font-size: 14px !important;
+    color: #8D8D8D;
+}
+.view-detail-athletes-cards h6{
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+}
+.view-detail-athletes-cards a{
+    font-size: 14px;
+    font-weight: 400;
+}
+#invite-job .search-input{
+    background-color: #F5F5F5;
+
+}
+
+
+
 /* post-job-popup */
 #post-job h6{
     color: #63AF31;
@@ -337,9 +462,7 @@ color: #8D8D8D;
     background-color: rgb(81, 204, 0, 0.25);
     color: #63AF31;
     height: 42px;
-    padding-top: 8px;
-    padding-left: 8px;
-    padding-right: 8px;
+   padding: 8px;
     border: 1px solid #63AF31;
 border-radius: 8px;
 font-weight: 500;
@@ -364,9 +487,11 @@ font-size: 16px;
     display: flex;
     align-items: center;
     border-radius: 60px;
+    max-width: 200px;
+    width: 200px;
 }
 .next-step-btn:hover{
-    border: 1px solid #63AF31;
+    border: 1px solid #63AF31 ;
     color: #63AF31;
 }
 .back-btn{
@@ -379,6 +504,8 @@ font-size: 16px;
     align-items: center;
     border-radius: 60px;
     margin-right: 15px;
+    max-width: 200px;
+    width: 200px;
 }
 .back-btn:hover{
     background-color: #63AF31;
@@ -388,7 +515,7 @@ font-size: 16px;
     color:#606060;
     font-size: 18px;
     font-weight: 500;
-    padding-top: 10px;
+   
     padding-bottom: 10px;
 }
 .posted-jobs p{
@@ -530,6 +657,20 @@ padding: 0 20px 0 20px;
     color: #C3C3C3 ;
     font-weight: lighter !important;
 }
+/* exclusive-sec */
+.exclusive-sec .btn-check:checked+.btn{
+    background-color: #63AF31 !important;
+    color: white !important;
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+.exclusive-sec .btn-secondary{
+    background-color: rgb(81, 204, 0, 0.25) !important;
+    color: #63AF31 !important;
+    border: 1px solid #63AF31 !important;
+}
+
 /* no-of-athe */
 .no-of-athe{
     background-color: #F8F9F8 !important;
@@ -599,3 +740,460 @@ border-radius: 8px;
     color: #FB003E !important;
    
 }
+
+
+
+
+/* edit-profile */
+.edit-profile-brands{
+    height: 40vh;
+    border-radius: 12px;
+  
+    color: white;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: grid;
+    align-items: end;
+    padding: 20px;
+    
+}
+
+.edit-profile-pic-brands{
+    background: #FFFFFF;
+opacity: 0.6;
+box-shadow: 0px 3px 8px rgba(216, 216, 216, 0.22);
+border-radius: 14px;
+padding: 20px;
+
+}
+.edit-profile-brands label{
+    color: #C3C3C3;
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+
+/* brands-profile */
+.profile-cover-brands{
+    height: 40vh;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+}
+.brands-posted-jobs-card{
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 3px 8px rgba(216, 216, 216, 0.22);
+    padding: 10px;
+}
+
+.brands-posted-jobs-card:hover{
+    border: 1px solid #63AF31;
+    
+}
+.job-price{
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+}
+.job-status-pending{
+    font-weight: 400;
+    font-size: 16px;
+    color: #EB996E;
+}
+.job-status-complete{
+    color: #63AF31;
+    font-weight: 400;
+    font-size: 16px;
+}
+.job-applicants{
+    color: #000000;
+}
+.reviews-tab{
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+}
+.reviews-tab title{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+   
+
+}
+.brands-total-rating{
+    font-size: 20px;
+    font-weight: 500;
+    color: #9D9D9D !important;
+}
+.rating-box{
+    background-color: #FCFCFC;
+    border-radius: 8px;
+    border: 1px solid #63AF31;
+    padding: 15px;
+}
+.rating-box p{
+    color: #C9C9C9;
+}
+.rating-box .row{
+display: flex;
+align-items: center;
+padding-bottom: 10px;
+}
+/* manage-profile-upload-content */
+.upload-project-img{
+    height: 30vh;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color: #F4F4F4;
+    border-radius: 8px;
+    box-shadow: 0px 2px 6px rgba(185, 185, 185, 0.18);
+    margin-top: 20px;
+
+}
+/* add-payment */
+#add-payment input{
+    background-color: #F4F4F4;
+}
+#add-payment .btn-secondary{
+    
+background: #FAFAFA;
+box-shadow: 0px 3px 8px rgba(216, 216, 216, 0.18);
+border-radius: 8px;
+color: #C3C3C3;
+margin-right: 15px;
+}
+#add-payment .btn-check:checked+.btn{
+    background: #63AF31 !important;
+box-shadow: 0px 3px 8px rgba(216, 216, 216, 0.18) !important;
+border-radius: 8px;
+color: white !important;
+}
+
+/* view-details */
+#advance-filter .popup{
+    width: 70%;
+}
+#advance-filter label{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#advance-filter input{
+    background: #F5F5F5;
+box-shadow: 0px 2px 6px rgba(185, 185, 185, 0.18);
+border-radius: 8px;
+}
+#advance-filter select{
+    background: #F5F5F5;
+box-shadow: 0px 2px 6px rgba(185, 185, 185, 0.18);
+border-radius: 8px;
+}
+/* chat */
+.chat-names-col{
+    background-color: white;
+    height: 70vh;
+   
+    overflow-y: scroll;
+
+}
+.chat-person-name{
+    color: #2E3867 !important;
+}
+.chat .nav-pills .nav-link.active{
+    background-color: white;
+    border: 1px solid #63AF31;
+}
+.chat .nav-pills .nav-link {
+    background: #F9F9F9;
+box-shadow: 0px 2px 6px rgba(185, 185, 185, 0.18);
+}
+.chat-box{
+    background-color: white;
+    height: 70vh;
+    position: relative;
+  
+    
+}
+.mesages-container{
+overflow-y: scroll;
+height: 50vh;
+}
+.chat-head{
+    background-color: #F0F0F0;
+    padding: 15px;
+    box-shadow: 0px 2px 6px rgba(185, 185, 185, 0.18);
+border-radius: 8px;
+margin-bottom: 20px;
+}
+.chat-box input{
+    box-shadow: none;
+}
+.send-input{
+    background: #FFFFFF;
+box-shadow: 0px 2px 6px rgba(185, 185, 185, 0.18);
+border-radius: 8px;
+position: absolute;
+bottom: 0;
+width: -webkit-fill-available;
+margin-bottom: 30px;
+border: 1px solid #F0F0F0;
+
+}
+.chat-card .chat-card-body .chat-card-actions {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 10;
+    right: 4%;
+    top: 20%;
+    color: white;
+}
+.chat-card .chat-card-body.has-card-actions {
+    position: relative;
+    padding-right: 1rem !important;
+}
+
+
+.chat2-card .chat2-card-body .chat2-card-actions {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 10;
+    right: auto;
+    top: 20%;
+}
+.chat2-card .chat2-card-body.has-card-actions {
+    position: relative;
+    padding-right: 1rem !important;
+}
+
+.chat-box .accordion-button{
+    padding: 10px !important;
+}
+.chat-box .accordion-button:focus{
+   outline: none !important;
+   box-shadow: none !important;
+}
+.chat-box .accordion-button::after{
+    display: none !important;
+}
+.chat-box .accordion-button:not(.collapsed) {
+  
+    background-color:white !important;
+    box-shadow: none !important;
+    border: 1px solid #63AF31 !important;
+    border-radius: 8px !important;
+}
+.chat-box .accordion-button{
+    background-color: #F9F9F9;
+    box-shadow: 0px 2px 6px rgba(185, 185, 185, 0.18);
+}
+.accordion-item{
+    border: none !important;
+    border-radius: 0 !important;
+}
+
+/* athletes view profile */
+.social-box{
+    border: 1px solid #EBEBEB;
+    border-radius: 8px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.social-media-statistics .social-reviews-row{
+    background-color: white;
+    border-radius: 8px ;
+    padding: 20px 15px;
+}
+.review-social-box {
+    border: 1px solid #EBEBEB;
+    border-radius: 8px;
+    width:50%;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding: 10px;
+}
+.review-social-box img{
+    margin-top: -30px;
+    background-color: white;
+}
+.review-social-box a{
+    color: #3F89DF;
+}
+.social-count{
+    color: #63AF31;
+    margin-bottom: 0;
+}
+.social-media-statistics-profile{
+    background-color: white;
+    margin-top: 20px !important;
+    padding: 20px 15px;
+    border-radius: 8px;
+}
+
+
+/* athletes-manage-profile */
+.progress-bar{
+    background-color: #63AF31 !important;
+}
+.sponserpro-link{
+    background: rgba(255, 76, 0, 0.25);
+border: 1px solid #FF4C00;
+border-radius: 8px;
+color: #FF4C00;
+padding: 8px;
+}
+.sponserpro-link:hover{
+    background: transparent;
+    color: #FF4C00;
+}
+.social-media-statistics-col{
+    border: 1px solid #EBEBEB;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+
+    
+}
+.social-media-statistics-col img{
+    background-color: white;
+    margin-top: -30px;
+}
+.social-media-statistics-col a{
+    color: #3F89DF;
+}
+.interest-col {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+}
+.industries-col{
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.industry-brands-select{
+    background-color: #FAFAFA;
+    border-radius: 8px;
+
+}
+.about-tab{
+    background-color: white;
+    border-radius: 8px;
+}
+.border-grey{
+    border: 2px solid #ECECEC;
+border-radius: 8px;
+}
+.add-link-box{
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+}
+.apply-job-right-boxes{
+    background-color:white;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 6px rgba(185, 185, 185, 0.18);
+}
+.apply-job-right-boxes a{
+    font-weight: bold;
+    padding-left: 10px;
+}
+/* disclose-job */
+.cancel-btn{
+    background-color: #FB003E;
+    color: white;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    max-width: 200px;
+    width: 200px;
+}
+.cancel-btn:hover{
+    border: 1px solid  #FB003E;
+    color: #FB003E;
+
+}
+
+
+/* media-quries */
+@media only screen and (max-width: 576px){
+    .app-header .post-job-btn{
+        display: none;
+    }
+    .sponser-tab .nav-item{
+        width: 100%;
+    }
+    .sponser-tab .nav-item button{
+        width: 100%;
+    }
+    .close-btn{
+      
+        margin-left: 0px;
+       
+    }
+  
+    .Continue-btn{
+      
+        margin-left: 0px;
+         
+    }
+
+
+}
+@media only screen and (max-width: 767px) {
+    .app-wrapper{
+       padding: 3%;
+    }
+    .popup{
+        width:85%;
+        padding: 20px;
+    }
+    .row{
+        margin: 0;
+    }
+    .nav-item{
+        margin-left: 0;
+    }
+    .review-social-box{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .popup{
+        width:70%;
+    }
+    .chat-box{
+        height: auto !important;
+    }
+    .mesages-container{
+        height: 70vh;
+        overflow-y: scroll;
+    }
+ 
+}
+
+@media only screen and (max-width: 1199px) {
+    .app-wrapper{
+        width: 100%;
+    }
+}
+
+

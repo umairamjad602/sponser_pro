@@ -1,48 +1,13 @@
 @extends('layouts.dashboard')
 @section('style')
 @endsection
-
-  <!-- refer-popup -->
-  <div id="referrals" class="popup-overlay ">
-        <div class="popup">
-            <div class="row  ">
-
-                <div class="col-12">
-					<a class="close" href="#">&times;</a>
-                    <div class="d-md-flex align-items-center row">
-
-					<div class="col-lg-6">
-					<h3>Please complete your profile to refer.</h3>
-                    <p class="py-3">Your profile needs to be filled to start referring athletes to MOGL Also, make sure your contact number is verified</p>
-					<a href="edit-profile.html" class="btn Continue-btn d-flex m-0 align-items-center" type="button" style="width:auto;">
-                        <div class="text-start">Complete your profile</div>
-                        <div class="ms-auto  d-flex align-items-center"><i class="fa-solid fa-circle-chevron-right" style="font-size:25px;"></i></div>
-
-                    </a>
-                </div>
-                <div class="col-lg-6 text-center">
-                <img src="{{asset('front-end/images/refer.png')}}" class="img-fluid">
-                </div>
-            </div>
-
-				</div>
-
-
-            </div>
-
-
-        </div>
-    </div>
-
-
 @section('content')
-
 <div class="app-content pt-3 p-md-3 p-lg-4">
 		    <div class="container-fluid " style="padding:2%;">
 			    <div class="row  g-3 mb-4 align-items-center justify-content-between">
 
                     <!-- profile-cover-img -->
-				  <div class="col-12 profile-cover-brands" style="background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('front-end/images/profile-bg.png');">
+				  <div class="col-12 profile-cover-brands" style="background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url({{asset('front-end/images/profile-bg.png')}});">
 
                   </div>
 
@@ -63,6 +28,7 @@
                                         <h6 class="title"><b>Jack Betts</b></h6>
                                         <p>Alabama State University</p>
                                         <p>Men's Basketball</p>
+
                                     </div>
                                     <div class="col-12 d-flex justify-content-between my-4">
                                         <h6 class="sub-title"><b>MOGL Ratings</b></h6>
@@ -151,7 +117,7 @@
                                 <div class="col-12 left-green-border py-4">
                                     <h6>My Sponserpro link</h6>
                                     <p class="mb-4">Sponserpro is a place for you to upload all your affiliate links. Sponserpro is to be shared across all your social media to drive sales and revenue for you and your sponsors.</p>
-                                     <a href="sponserPro-link.html" class="sponserpro-link btn">Create your Sponserpro link</a>
+                                     <a href="{{url('sponsorpro-jobs')}}" class="sponserpro-link btn">Create your Sponserpro link</a>
                                 </div>
                                 <div class="col-12 d-flex justify-content-between">
                                     <h4>POSTS</h4>
@@ -160,7 +126,7 @@
 
                                     <div class="col-lg-12 social-media-statistics-profile">
                                         <div class="row">
-                                            <div class="col-auto"><img src="assets/images/ath-pic.png" alt="" class="img-fluid user-img"></div>
+                                            <div class="col-auto"><img src="{{asset('front-end/images/ath-pic.png')}}" alt="" class="img-fluid user-img"></div>
                                             <div class="col-auto">
                                                 <h6 class="title">Spectrum Reach</h6>
                                                 <p>Created at : February 21, 2023 at 1:12:33 PM GMT-5</p>
@@ -170,7 +136,7 @@
 
                                                 <p>RT @GatorsGym: Senior week - 𝙍𝙖𝙘𝙝𝙚𝙡 𝘽𝙖𝙪𝙢𝙖𝙣𝙣✨ Once a Gator, Always a Gator 🧡💙 #GoGators | #WeChomp <br><a href="#">https://t.co/3thOBLwVoo</a> </p>
 
-                                           <img src="assets/images/profile-bg.png" alt="" class="img-fluid">
+                                           <img src="{{asset('front-end/images/profile-bg.png')}}" alt="" class="img-fluid">
                                             </div>
                                         </div>
                                     </div>
@@ -257,7 +223,7 @@
                             </div>
                             <div class="row">
                                 <div class="col text-center mt-md-5 mt-2">
-                                    <img src="assets/images/undraw_reviews.png" alt="" class="img-fluid">
+                                    <img src="{{asset('front-end/images/undraw_reviews.png')}}" alt="" class="img-fluid">
                                 </div>
                             </div>
                         </div>
@@ -276,7 +242,7 @@
                                 <div class="col-12 industries-col">
                                     <h5 class="mb-4">Industries</h5>
                                    <div class="text-center m-2 p-5 industry-brands-select">
-                                    <img src="assets/images/industry-select.png" alt="" class="img-fluid ">
+                                    <img src="{{asset('front-end/images/industry-select.png')}}" alt="" class="img-fluid ">
                                     <p>No Industries selected!</p>
                                    </div>
                                    <div class="d-flex justify-content-between mt-4">
@@ -286,7 +252,7 @@
                                     </p>
                                    </div>
                                    <div class="text-center m-2  p-5 industry-brands-select">
-                                    <img src="assets/images/brand-select.png" alt="" class="img-fluid ">
+                                    <img src="{{asset('front-end/images/brand-select.png')}}" alt="" class="img-fluid ">
                                     <p>No Brands selected!</p>
                                    </div>
 
@@ -380,7 +346,7 @@
                                 <div class="col">
                                     <div class="row ">
                                         <div class="  col-12 social-media-statistics-col">
-                                            <img src="{{asset('front-end/images/insta.png')}}" alt="">
+                                            <img src="assets/images/insta.png" alt="">
 
                                             <div class="d-flex justify-content-between mt-4">
                                                 <div>
@@ -439,9 +405,7 @@
 
 		    </div><!--//container-fluid-->
 	    </div><!--//app-content-->
-
-    </div><!--//app-wrapper-->
-
+manage-profile
 @endsection
 @section('script')
 @endsection

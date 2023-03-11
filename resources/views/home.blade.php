@@ -119,6 +119,9 @@
                     <div class="alert alert-success" id="user-done" role="alert">
                         You have resgister successfully. When admin <b>Approve</b> or <b>Reject</b> your account will inform you by given email.
                     </div>
+                    <p style="display: none;">
+                        {{Session::remove('resgiter')}}
+                    </p>
                     @endif
                     <h4>
                         Please signup to your account

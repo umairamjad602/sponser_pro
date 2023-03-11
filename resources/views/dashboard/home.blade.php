@@ -63,41 +63,41 @@
 							<div class="tab-content py-5">
 								<div class="tab-pane active text-center" id="jobs" role="tabpanel" aria-labelledby="jobs-tab">
 
-								<img src="assets/images/postedjob-character.png" alt="" class="img-fluid">
+								<img src="{{asset('front-end/images/postedjob-character.png')}}" alt="" class="img-fluid">
 								<h1>Ready to get started? Post <br> a job here .</h1>
 								<a class="btn post-job-btn" href="#post-job" role="button">Create job<i class="fa-solid fa-plus px-2"></i></a>
 								</div>
 								<div class="tab-pane  text-center" id="pending" role="tabpanel" aria-labelledby="pending-tab">
 
-									<img src="assets/images/postedjob-character.png" alt="" class="img-fluid">
+									<img src="{{asset('front-end/images/postedjob-character.png')}}" alt="" class="img-fluid">
 									<h1>Ready to get started? Post <br> a job here .</h1>
 									<a class="btn post-job-btn" href="#post-job" role="button">Create job<i class="fa-solid fa-plus px-2"></i></a>
 									</div>
 
 									<div class="tab-pane  text-center" id="hired" role="tabpanel" aria-labelledby="hired-tab">
 
-										<img src="assets/images/postedjob-character.png" alt="" class="img-fluid">
+										<img src="{{asset('front-end/images/postedjob-character.png')}}" alt="" class="img-fluid">
 										<h1>Ready to get started? Post <br> a job here .</h1>
 										<a class="btn post-job-btn" href="#post-job" role="button">Create job<i class="fa-solid fa-plus px-2"></i></a>
 										</div>
 
 										<div class="tab-pane text-center" id="ongoing" role="tabpanel" aria-labelledby="ongoing-tab">
 
-											<img src="assets/images/postedjob-character.png" alt="" class="img-fluid">
+											<img src="{{asset('front-end/images/postedjob-character.png')}}" alt="" class="img-fluid">
 											<h1>Ready to get started? Post <br> a job here .</h1>
 											<a class="btn post-job-btn" href="#post-job" role="button">Create job<i class="fa-solid fa-plus px-2"></i></a>
 											</div>
 
 											<div class="tab-pane text-center" id="payment" role="tabpanel" aria-labelledby="payment-tab">
 
-												<img src="assets/images/postedjob-character.png" alt="" class="img-fluid">
+												<img src="{{asset('front-end/images/postedjob-character.png')}}" alt="" class="img-fluid">
 												<h1>Ready to get started? Post <br> a job here .</h1>
 												<a class="btn post-job-btn" href="#post-job" role="button">Create job<i class="fa-solid fa-plus px-2"></i></a>
 												</div>
 
 												<div class="tab-pane text-center" id="completed" role="tabpanel" aria-labelledby="completed-tab">
 
-													<img src="assets/images/postedjob-character.png" alt="" class="img-fluid">
+													<img src="{{asset('front-end/images/postedjob-character.png')}}" alt="" class="img-fluid">
 													<h1>Ready to get started? Post <br> a job here .</h1>
 													<a class="btn post-job-btn" href="#post-job" role="button">Create job<i class="fa-solid fa-plus px-2"></i></a>
 													</div>

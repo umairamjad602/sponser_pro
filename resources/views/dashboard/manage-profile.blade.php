@@ -47,7 +47,7 @@
 				<div class="row g-0 d-md-flex justify-content-md-end  mt-md-5 mt-3">
 					<div class="col-auto d-md-flex">
 
-						<a href="home.html" class="btn close-btn d-flex  align-items-center mt-md-0 mt-3" type="button">
+						<a href="{{url('/home')}}" class="btn close-btn d-flex  align-items-center mt-md-0 mt-3" type="button">
 							<div class="text-start">Cancel </div>
 							<div class="ms-auto  d-flex align-items-center"><i class="fa-solid fa-circle-chevron-right" style="font-size:25px;"></i></div>
 
@@ -150,7 +150,7 @@
                     <div class="col-lg-4 ath-profile ">
                         <div class="row ">
                             <div class="ms-auto col-auto">
-                                <a href="edit-profile.html"><img src="{{asset('front-end/images/edit-profile.png')}}" alt="" ></a>
+                                <a href="{{url('edit-profile')}}"><img src="{{asset('front-end/images/edit-profile.png')}}" alt="" ></a>
 
                             </div>
                             <div class="col-lg-12">

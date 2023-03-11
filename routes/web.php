@@ -101,6 +101,13 @@ Route::get('/posted-job-revew', function () {
     return view('dashboard.posted-job-revew');
 });
 
+Route::get('/view-profile', function () {
+    return view('dashboard.view-profile');
+});
+
+Route::get('/athelets-view-profile', function () {
+    return view('dashboard.athelets-view-profile');
+});
 
 
 Route::get('/', function () {

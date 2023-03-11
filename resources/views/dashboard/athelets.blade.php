@@ -1,6 +1,96 @@
 @extends('layouts.dashboard')
 @section('style')
 @endsection
+
+<!-- invite-job-popup -->
+<div id="invite-job" class="popup-overlay ">
+			<div class="popup">
+				<div class="row  ">
+
+					<div class="col-12">
+						<a class="close" href="#">&times;</a>
+						<div class="d-md-flex justify-content-between">
+							<h2 class="me-md-5">Invite Job to Mardrez McBride</h2>
+
+								<form class="app-search-form">
+									<input type="text" placeholder="Name.." name="search" class="form-control search-input">
+									<button type="submit" class="btn search-btn btn-primary" value="Search"><i class="fas fa-search"></i></button>
+								</form>
+
+
+						</div>
+
+
+					</div>
+
+
+				</div>
+				<div class="row mt-3">
+
+				<div class="col-lg-6 text-center">
+					<div class="post-job-popup">
+					  <div class="form-check  d-flex justify-content-end">
+						<input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+						<label class="form-check-label" for="flexRadioDefault2">
+						</label>
+
+					  </div>
+					  <img src="{{asset('front-end/images/free-trial.png')}}" alt="">
+						<h4 class="my-2">Trial</h4>
+						<p>long-term The Players Locker, $ 500, Dec 23, 2022</p>
+					</div>
+
+				</div>
+				<div class="col-lg-6 text-center mt-lg-0 mt-3">
+					<div class="post-job-popup">
+
+					<div class="form-check d-flex justify-content-end">
+						<input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" >
+						<label class="form-check-label" for="flexRadioDefault2">
+						</label>
+					  </div>
+					  <img src="{{asset('front-end/images/part-time.png')}}" alt="">
+					  <h4 class="my-2">contract</h4>
+					   <p>long-term The Players Locker, $ 50, Dec 23, 2022</p>
+				</div>
+					</div>
+
+
+
+				</div>
+
+			</div>
+		</div>
+		<!-- popup end -->
+		<!-- social-follwers-popup -->
+		<div id="social-followers" class="popup-overlay ">
+			<div class="popup">
+
+				<div class="social-followers row d-md-flex">
+
+
+					<div class="col-lg-4">
+						<a class="close" href="#">&times;</a>
+						<label for="">Instagram followers</label>
+						<input type="text" class="form-control my-1" id="exampleFormControlInput1" style="background: #F5F5F5;" placeholder="Min IG followers - Max IG followers" required>
+					</div>
+					<div class="col-lg-4">
+						<label for="">Twitter followers</label>
+						<input type="text" class="form-control my-1" id="exampleFormControlInput1" style="background: #F5F5F5;" placeholder="Min Twitter followers - Max Twitter followers" required>
+					</div>
+					<div class="col-lg-3">
+						<label for="">TikTok followers</label>
+						<input type="text" class="form-control my-1" id="exampleFormControlInput1" style="background: #F5F5F5;" placeholder="Min TikTok followers - Max TikTok followers" required>
+					</div>
+					<div class="col-lg-1">
+						<a href="#"><img src="assets/images/login.png" alt=""></a>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<!-- popup end -->
+
 @section('content')
 
 <div class="app-content pt-3 p-md-3 p-lg-4">
@@ -182,12 +272,12 @@
                                </div>
 
 								<div class="row py-3 ">
-									<a href="{{url('anthelet-profile')}}#invite-job" class="btn view-job-btn mb-3 d-flex mx-auto align-items-center" type="button">
+									<a href="#invite-job" class="btn view-job-btn mb-3 d-flex mx-auto align-items-center" type="button">
 										<div class="text-start">invite to job</div>
 										<div class="ms-auto  d-flex align-items-center"><i class="fa-solid fa-circle-chevron-right" style="font-size:25px;"></i></div>
 
 									</a>
-									<a href="{{url('anthelet-profile')}}" class="btn view-profile-btn  d-flex mx-auto align-items-center" type="button">
+									<a href="{{url('athelets-view-profile')}}" class="btn view-profile-btn  d-flex mx-auto align-items-center" type="button">
 										<div class="text-start">View profile</div>
 										<div class="ms-auto d-flex align-items-center"><i class="fa-solid fa-circle-chevron-right" style="font-size:25px;"></i></div>
 
@@ -265,12 +355,12 @@
                                </div>
 
 							   <div class="row py-3 ">
-								<a href="{{url('anthelet-profile')}}#invite-job" class="btn view-job-btn mb-3 d-flex mx-auto align-items-center" type="button">
+								<a href="#invite-job" class="btn view-job-btn mb-3 d-flex mx-auto align-items-center" type="button">
 									<div class="text-start">invite to job</div>
 									<div class="ms-auto  d-flex align-items-center"><i class="fa-solid fa-circle-chevron-right" style="font-size:25px;"></i></div>
 
 								</a>
-								<a href="{{url('anthelet-profile')}}" class="btn view-profile-btn  d-flex mx-auto align-items-center" type="button">
+								<a href="{{url('athelets-view-profile')}}" class="btn view-profile-btn  d-flex mx-auto align-items-center" type="button">
 									<div class="text-start">View profile</div>
 									<div class="ms-auto d-flex align-items-center"><i class="fa-solid fa-circle-chevron-right" style="font-size:25px;"></i></div>
 
@@ -347,12 +437,12 @@
                                 </div>
                                </div>
 							   <div class="row py-3 ">
-								<a href="{{url('anthelet-profile')}}#invite-job" class="btn view-job-btn mb-3 d-flex mx-auto align-items-center" type="button">
+								<a href="#invite-job" class="btn view-job-btn mb-3 d-flex mx-auto align-items-center" type="button">
 									<div class="text-start">invite to job</div>
 									<div class="ms-auto  d-flex align-items-center"><i class="fa-solid fa-circle-chevron-right" style="font-size:25px;"></i></div>
 
 								</a>
-								<a href="{{url('anthelet-profile')}}" class="btn view-profile-btn  d-flex mx-auto align-items-center" type="button">
+								<a href="{{url('athelets-view-profile')}}" class="btn view-profile-btn  d-flex mx-auto align-items-center" type="button">
 									<div class="text-start">View profile</div>
 									<div class="ms-auto d-flex align-items-center"><i class="fa-solid fa-circle-chevron-right" style="font-size:25px;"></i></div>
 

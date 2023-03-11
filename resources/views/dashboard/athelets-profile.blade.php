@@ -14,7 +14,7 @@
 					<div class="col-lg-6">
 					<h3>Please complete your profile to refer.</h3>
                     <p class="py-3">Your profile needs to be filled to start referring athletes to MOGL Also, make sure your contact number is verified</p>
-					<a href="edit-profile.html" class="btn Continue-btn d-flex m-0 align-items-center" type="button" style="width:auto;">
+					<a href="{{url('edit-profile')}}" class="btn Continue-btn d-flex m-0 align-items-center" type="button" style="width:auto;">
                         <div class="text-start">Complete your profile</div>
                         <div class="ms-auto  d-flex align-items-center"><i class="fa-solid fa-circle-chevron-right" style="font-size:25px;"></i></div>
 
@@ -42,7 +42,7 @@
 			    <div class="row  g-3 mb-4 align-items-center justify-content-between">
 
                     <!-- profile-cover-img -->
-				  <div class="col-12 profile-cover-brands" style="background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('front-end/images/profile-bg.png');">
+				  <div class="col-12 profile-cover-brands" style="background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url({{url('front-end/images/profile-bg.png')}});">
 
                   </div>
 

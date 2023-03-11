@@ -93,7 +93,7 @@
                     </div>
                     <div class="col-12 py-5 text-center">
                         <div>
-                            <img src="assets/images/payment-methods.png " alt="" class="img-fluid">
+                            <img src="{{asset('front-end/images/payment-methods.png')}} " alt="" class="img-fluid">
                         </div>
                         <div class="mt-5">
                             <a href="#add-payment" class="btn add-ques-btn text-white " role="button" style="background: linear-gradient(90deg, #FFDE00 0%, #FD5900 100%);">Add payment Methods<i class="fa-solid fa-plus px-2"></i></a>

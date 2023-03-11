@@ -6,6 +6,7 @@ use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Mail;
+use Illuminate\Support\Facades\Session;
 use PhpParser\Node\Stmt\Return_;
 
 class UserResgiterController extends Controller
@@ -37,7 +38,8 @@ class UserResgiterController extends Controller
                 $message->to($this->data['email'])
                 ->subject('You have Register Successfully.');
             });
-            return redirect(url('/#resgiter?resgiter=true'));
+            Session::put('resgiter', true);
+            return redirect(url('/#register'));
         }
     }
 }

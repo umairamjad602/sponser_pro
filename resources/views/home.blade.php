@@ -115,9 +115,11 @@
                     <h3 class="mt-5">
                         WELCOME
                     </h3>
+                    @if(Session::get('resgiter') == true)
                     <div class="alert alert-success" id="user-done" role="alert">
                         You have resgister successfully. When admin <b>Approve</b> or <b>Reject</b> your account will inform you by given email.
                     </div>
+                    @endif
                     <h4>
                         Please signup to your account
                     </h4>
@@ -724,13 +726,13 @@
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous">
     </script>
     <script>
-        $(document).ready(function () {
-            $('#user-done').hide();
-            console.log(location.href);
-            if (location.href.includes("resgiter=true")) {
-                $('#user-done').show();
-            }
-        })
+        // $(document).ready(function () {
+        //     $('#user-done').hide();
+        //     console.log(location.href);
+        //     if (location.href.includes("resgiter=true")) {
+        //         $('#user-done').show();
+        //     }
+        // })
     </script>
 
 </body>

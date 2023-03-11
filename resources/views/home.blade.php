@@ -13,6 +13,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.6.4.slim.min.js" integrity="sha256-a2yjHM4jnF9f54xUQakjZGaqYs/V1CYvWpoqZzC2/Bw=" crossorigin="anonymous"></script>
 
     <title>{{ env('APP_NAME') }}</title>
 </head>
@@ -114,8 +115,8 @@
                     <h3 class="mt-5">
                         WELCOME
                     </h3>
-                    <div class="alert alert-success" id="user-done" style="display: none;" role="alert">
-                        A simple success alert—check it out!
+                    <div class="alert alert-success" id="user-done" role="alert">
+                        You have resgister successfully. When admin <b>Approve</b> or <b>Reject</b> your account will inform you by given email.
                     </div>
                     <h4>
                         Please signup to your account
@@ -123,7 +124,7 @@
                     @if (session('success'))
                         <div class="alert alert-success">{{ session('success') }}</div>
                     @endif
-                    <form method="POST" action="{{ route('register') }}">
+                    <form method="POST" action="{{ url('resgter-user') }}">
                         @csrf
 
                         <div class="form-check form-check-inline">
@@ -215,10 +216,6 @@
         </div>
     </div>
 
-    <script>
-        let url = datawindow.location.search.substring(1)
-        console.log(url);
-    </script>
 
 
 
@@ -369,10 +366,10 @@
                         </h2>
                         <h1 class="">GROW WITH SPONSORPRO</h1>
                         <p>Build partnerships locally and nationally while monetizing your NIL.</p>
-                        <button class="btn bg-green-btn ">BRAND SIGN UP <i
-                                class="fa-solid fa-circle-chevron-right px-1"></i></button>
-                        <button class="btn border-white-btn mx-3">ATHLETE SIGN UP <i
-                                class="fa-solid fa-circle-chevron-right px-1"></i></button>
+                        <a class="btn bg-green-btn " href="#register">BRAND SIGN UP <i
+                                class="fa-solid fa-circle-chevron-right px-1"></i></a>
+                        <a class="btn border-white-btn mx-3" href="#register">ATHLETE SIGN UP <i
+                                class="fa-solid fa-circle-chevron-right px-1"></i></a>
 
                     </div>
                 </div>
@@ -726,6 +723,16 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous">
     </script>
+    <script>
+        $(document).ready(function () {
+            $('#user-done').hide();
+            console.log(location.href);
+            if (location.href.includes("resgiter=true")) {
+                $('#user-done').show();
+            }
+        })
+    </script>
+
 </body>
 
 </html>

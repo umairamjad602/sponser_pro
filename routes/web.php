@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\UserResgiterController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -123,7 +124,7 @@ Route::get('/home', function () {
 
 Auth::routes(['verify' => true]);
 
-
+Route::post('resgter-user', [UserResgiterController::class, 'RegisterUser']);
 
 Route::middleware(['isapproved'])->group(function () {
     // user dashboard

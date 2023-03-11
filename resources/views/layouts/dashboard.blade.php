@@ -212,15 +212,15 @@
 			            <div class="app-utility-item app-user-dropdown dropdown">
 				            <a class="dropdown-toggle" id="user-dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"><img src="{{asset('front-end/images/user.png')}}" alt="user profile" class="brand-img"></a>
 				            <ul class="dropdown-menu" aria-labelledby="user-dropdown-toggle" style="width:200px;">
-								<li><a class="dropdown-item" href="manage-profile.html">  <img src="{{asset('front-end/images/manage-profile.png')}}" alt="" class="img-fluid pe-2">Manage Profile</a></li>
+								<li><a class="dropdown-item" href="{{url('/manage-profile')}}">  <img src="{{asset('front-end/images/manage-profile.png')}}" alt="" class="img-fluid pe-2">Manage Profile</a></li>
 								<!-- athletes-options -->
-								<li><a class="dropdown-item" href="applied-job.html">  <img src="{{asset('front-end/images/applied-job.png')}}" style="width:35px;" alt="" class="img-fluid pe-2">My Applied Jobs</a></li>
-								<li><a class="dropdown-item" href="disclosed-jobs.html">  <img src="{{asset('front-end/images/disclosed-jobs.png')}}" style="width:35px;" alt="" class="img-fluid pe-2">My Disclosed Jobs</a></li>
-								<li><a class="dropdown-item" href="sponserPro-link.html">  <img src="{{asset('front-end/images/link.png')}}" style="width:35px;" alt="" class="img-fluid pe-2">My SponserPro Link</a></li>
+								<li><a class="dropdown-item" href="{{url('/applied-jobs')}}">  <img src="{{asset('front-end/images/applied-job.png')}}" style="width:35px;" alt="" class="img-fluid pe-2">My Applied Jobs</a></li>
+								<li><a class="dropdown-item" href="{{url('/disclosed-jobs')}}">  <img src="{{asset('front-end/images/disclosed-jobs.png')}}" style="width:35px;" alt="" class="img-fluid pe-2">My Disclosed Jobs</a></li>
+								<li><a class="dropdown-item" href="{{url('/sponsorpro-jobs')}}">  <img src="{{asset('front-end/images/link.png')}}" style="width:35px;" alt="" class="img-fluid pe-2">My SponserPro Link</a></li>
 								<!-- athletes-options -->
-								<li><a class="dropdown-item" href="my-posted-jobs.html"> <img src="{{asset('front-end/images/my-posted-jobs.png')}}" alt="" class="img-fluid pe-2">My Posted Jobs</a></li>
-								<li><a class="dropdown-item" href="payment-method.html"> <img src="{{asset('front-end/images/my-payment.png')}}" alt="" class="img-fluid pe-2" >My Payment</a></li>
-								<li><a class="dropdown-item" href="payment-history.html"> <img src="{{asset('front-end/images/payment-history-icon.png')}}" alt="" class="img-fluid pe-2">Payment History</a></li>
+								<li><a class="dropdown-item" href="{{url('/sponsorpro-jobs')}}"> <img src="{{asset('front-end/images/my-posted-jobs.png')}}" alt="" class="img-fluid pe-2">My Posted Jobs</a></li>
+								<li><a class="dropdown-item" href="{{url('/payments-methods')}}"> <img src="{{asset('front-end/images/my-payment.png')}}" alt="" class="img-fluid pe-2" >My Payment</a></li>
+								<li><a class="dropdown-item" href="{{url('/my-payments')}}"> <img src="{{asset('front-end/images/payment-history-icon.png')}}" alt="" class="img-fluid pe-2">Payment History</a></li>
 								<li><a class="dropdown-item" href="#logout"><img src="{{asset('front-end/images/logout-icon.png')}}" alt="" class="img-fluid pe-2">Log Out</a></li>
 							</ul>
 			            </div><!--//app-user-dropdown-->

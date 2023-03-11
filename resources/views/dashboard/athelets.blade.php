@@ -182,12 +182,12 @@
                                </div>
 
 								<div class="row py-3 ">
-									<a href="#invite-job" class="btn view-job-btn mb-3 d-flex mx-auto align-items-center" type="button">
+									<a href="{{url('anthelet-profile')}}#invite-job" class="btn view-job-btn mb-3 d-flex mx-auto align-items-center" type="button">
 										<div class="text-start">invite to job</div>
 										<div class="ms-auto  d-flex align-items-center"><i class="fa-solid fa-circle-chevron-right" style="font-size:25px;"></i></div>
 
 									</a>
-									<a href="athletes-view-profile.html" class="btn view-profile-btn  d-flex mx-auto align-items-center" type="button">
+									<a href="{{url('anthelet-profile')}}" class="btn view-profile-btn  d-flex mx-auto align-items-center" type="button">
 										<div class="text-start">View profile</div>
 										<div class="ms-auto d-flex align-items-center"><i class="fa-solid fa-circle-chevron-right" style="font-size:25px;"></i></div>
 
@@ -265,12 +265,12 @@
                                </div>
 
 							   <div class="row py-3 ">
-								<a href="#invite-job" class="btn view-job-btn mb-3 d-flex mx-auto align-items-center" type="button">
+								<a href="{{url('anthelet-profile')}}#invite-job" class="btn view-job-btn mb-3 d-flex mx-auto align-items-center" type="button">
 									<div class="text-start">invite to job</div>
 									<div class="ms-auto  d-flex align-items-center"><i class="fa-solid fa-circle-chevron-right" style="font-size:25px;"></i></div>
 
 								</a>
-								<a href="athletes-view-profile.html" class="btn view-profile-btn  d-flex mx-auto align-items-center" type="button">
+								<a href="{{url('anthelet-profile')}}" class="btn view-profile-btn  d-flex mx-auto align-items-center" type="button">
 									<div class="text-start">View profile</div>
 									<div class="ms-auto d-flex align-items-center"><i class="fa-solid fa-circle-chevron-right" style="font-size:25px;"></i></div>
 
@@ -347,12 +347,12 @@
                                 </div>
                                </div>
 							   <div class="row py-3 ">
-								<a href="#invite-job" class="btn view-job-btn mb-3 d-flex mx-auto align-items-center" type="button">
+								<a href="{{url('anthelet-profile')}}#invite-job" class="btn view-job-btn mb-3 d-flex mx-auto align-items-center" type="button">
 									<div class="text-start">invite to job</div>
 									<div class="ms-auto  d-flex align-items-center"><i class="fa-solid fa-circle-chevron-right" style="font-size:25px;"></i></div>
 
 								</a>
-								<a href="athletes-view-profile.html" class="btn view-profile-btn  d-flex mx-auto align-items-center" type="button">
+								<a href="{{url('anthelet-profile')}}" class="btn view-profile-btn  d-flex mx-auto align-items-center" type="button">
 									<div class="text-start">View profile</div>
 									<div class="ms-auto d-flex align-items-center"><i class="fa-solid fa-circle-chevron-right" style="font-size:25px;"></i></div>
 

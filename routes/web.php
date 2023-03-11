@@ -28,6 +28,30 @@ Route::get('/login', function () {
     return view('auth.login');
 });
 
+Route::get('/applied-jobs', function () {
+    return view('dashboard.applied-jobs');
+});
+
+Route::get('/disclosed-jobs', function () {
+    return view('dashboard.disclosed-jobs');
+});
+
+Route::get('/manage-profile', function () {
+    return view('dashboard.manage-profile');
+});
+
+Route::get('/my-payments', function () {
+    return view('dashboard.my-payments');
+});
+
+Route::get('/payments-methods', function () {
+    return view('dashboard.payments-methods');
+});
+
+Route::get('/sponsorpro-jobs', function () {
+    return view('dashboard.sponsorpro-jobs');
+});
+
 
 Route::get('/anthelet-profile', function () {
     return view('dashboard.athelets-profile');

@@ -11853,7 +11853,6 @@ border: none;
 
 .app-user-dropdown img {
     width: 36px;
-    height: 36px
 }
 
 @media(min-width: 576px) {
@@ -11958,7 +11957,8 @@ border-radius: 0px 32px 32px 0px;
 }
 
 .app-sidepanel.sidepanel-visible {
-    left: 0
+    left: 0;
+    z-index:999;
 }
 
 .app-sidepanel .app-nav-main {

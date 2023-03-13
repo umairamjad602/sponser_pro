@@ -23,24 +23,11 @@
     @yield('style')
     <title>Dashboard</title>
 </head>
-<style>
-    .loader {
-        width: 100%;
-        height: 100vh;
-        position: absolute;
-        left: 0;
-        top: 0;
-        z-index: 11000000000 !important;
-        background: #fff;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-</style>
 <body class="app">
-<div class="loader">
-    <h1>Loading...</h1>
-   </div>
+<!-- <div class="loader">
+    <h1 class="">Loading...</h1>
+   </div> -->
+   <div class="loader_wrap"><div class="loader">Loading...</div></div>
 @include('dashboard.modals.post-job')
     <header class="app-header ">
     <div class="app-header-inner">
@@ -315,9 +302,18 @@
     {{-- script --}}
     @yield('script')
 </body>
-<script>
+<!-- <script>
         $(document).ready(function () {
             $('.loader').hide();
         })
-    </script>
+    </script>  -->
+	<script>
+		window.addEventListener('DOMContentLoaded', function() {
+  setTimeout(function(){
+  $('.loader_wrap').fadeOut(800);
+  $('main').fadeIn();
+  },2000);
+})
+	</script>
+	
 </html>

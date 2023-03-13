@@ -93,8 +93,7 @@
 
 @section('content')
 
-<div class="app-content pt-3 p-md-3 p-lg-4">
-		    <div style="padding:2%;">
+
 			    <div class="row title-row g-3 mb-4 align-items-center justify-content-between">
 				    <div class="col-12 col-lg-2 col-md-1 mt-0">
 			            <h1 class="app-page-title mb-0">Athletes </h1>
@@ -470,21 +469,7 @@
 
 
 			    </div><!--//row-->
-			    <!-- <nav class="app-pagination mt-5">
-					<ul class="pagination justify-content-center">
-						<li class="page-item disabled">
-							<a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
-					    </li>
-						<li class="page-item active"><a class="page-link" href="#">1</a></li>
-						<li class="page-item"><a class="page-link" href="#">2</a></li>
-						<li class="page-item"><a class="page-link" href="#">3</a></li>
-						<li class="page-item">
-						    <a class="page-link" href="#">Next</a>
-						</li>
-					</ul>
-				</nav>//app-pagination -->
-		    </div><!--//container-fluid-->
-	    </div><!--//app-content-->
+			   
 
 @endsection
 @section('script')

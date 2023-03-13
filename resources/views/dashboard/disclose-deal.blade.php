@@ -3,8 +3,7 @@
 @endsection
 @section('content')
 
-<div class="app-content pt-3 p-md-3 p-lg-4 ">
-		    <div style="padding:2%;">
+
 			    <div class="row title-row g-3 mb-4 py-3 align-items-center justify-content-between">
 				    <div class="col-auto mt-0 d-flex" >
 			            <h1 class="app-page-title mb-0">Disclose your Non-SponserPro deals </h1>
@@ -286,8 +285,7 @@
 
 
 
-		    </div><!--//container-fluid-->
-	    </div><!--//app-content-->
+		   
 @endsection
 @section('script')
 @endsection

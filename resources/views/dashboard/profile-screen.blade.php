@@ -1,38 +1,10 @@
 @extends('layouts.dashboard')
 @section('style')
 @endsection
-
- <!-- logout-popup -->
- <div id="link-copied" class="popup-overlay ">
-        <div class="popup">
-            <div class="row  ">
-
-                <div class="col-auto">
-					<a class="close" href="#">&times;</a>
-
-					<h2>Link Copied</h2>
-
-				</div>
-				<div class="col-12 text-center py-4">
-					<img src="{{asset('front-end/images/link-copied.png')}}" alt="" class="img-fluid">
-				</div>
-
-
-            </div>
-
-
-
-
-
-
-
-        </div>
-    </div>
-
+@include('dashboard.modals.link-copied-modal')
 @section('content')
 
-<div class="app-content pt-3 p-md-3 p-lg-4">
-		    <div class="container-fluid " style="padding:2%;">
+
 			    <div class="row  g-3 mb-4 align-items-center justify-content-between">
 
                     <!-- profile-cover-img -->
@@ -441,10 +413,7 @@
 
 
 
-		    </div><!--//container-fluid-->
-	    </div><!--//app-content-->
-
-    </div><!--//app-wrapper-->
+		  
 
 @endsection
 @section('script')

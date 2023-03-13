@@ -11650,8 +11650,6 @@ border: none;
 }
 
 .app-header {
-   
-    height: 56px;
     background-color: #FAFAFA;
    
     
@@ -11662,6 +11660,7 @@ border: none;
 }
 
 .app-search-form {
+    margin-top:15px !important;
     position: relative;
     max-width: 600px
 }
@@ -11852,8 +11851,7 @@ border: none;
 }
 
 .app-user-dropdown .brand-img{
-    width: 36px;
-    height: 36px
+    width: 36px;  
 }
 
 @media(min-width: 576px) {

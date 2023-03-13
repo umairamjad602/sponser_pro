@@ -2,8 +2,7 @@
 @section('style')
 @endsection
 @section('content')
-<div class="app-content pt-3 p-md-3 p-lg-4 edit-profile-brands">
-		    <div class="container-fluid " style="padding:2%;">
+
                 <div class="row " >
                     <!-- cover-profile-pic-upload -->
 
@@ -292,8 +291,7 @@
 
 
 
-		    </div><!--//container-fluid-->
-	    </div><!--//app-content-->
+		
 
 @endsection
 @section('script')

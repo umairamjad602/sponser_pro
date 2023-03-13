@@ -3,8 +3,7 @@
 @endsection
 @section('content')
 
-<div class="app-content pt-3 p-md-3 p-lg-4">
-		    <div class="container-fluid " style="padding:2%;">
+
 			    <div class="row  g-3 mb-4 align-items-center justify-content-between">
 
                     <!-- profile-cover-img -->
@@ -277,8 +276,7 @@
 
 
 
-		    </div><!--//container-fluid-->
-	    </div><!--//app-content-->
+		
 
 @endsection
 @section('script')

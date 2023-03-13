@@ -3,13 +3,11 @@
 @endsection
 @section('content')
 
-<div class="app-content pt-3 p-md-3 p-lg-4 ">
-		    <div style="padding:2%;">
+
 			    <div class="row title-row g-3 mb-4 py-3 align-items-center justify-content-between">
 				    <div class="col-auto mt-0 d-flex" >
 			            <h1 class="app-page-title mb-0">Create a job post </h1>
 				    </div>
-
 			    </div><!--//row-->
 
 			    <div class="row  ">
@@ -38,9 +36,7 @@
 						<div class="col-12 ">
 							<div class="tab-content py-4">
                                     <!-- step3 -->
-
 									<div class="tab-pane active " id="step3" role="tabpanel" aria-labelledby="step3-tab">
-
 										<h6 class="">TALNET LOCATION</h6>
 										<div class="row">
 											<div class="col-lg-6 ">
@@ -86,19 +82,9 @@
 												<img src="assets/images/multi-ath.png" alt="">
 												<h6 class="mb-0 px-2">All Sponserpro Athelete</h6>
 												<input class="form-check-input ms-auto me-2" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
-
-
 											  </div>
 										</div>
-
-
 										</div>
-
-
-
-
-
-
 							  </div>
 						</div>
                         <div class="row g-0 d-flex justify-content-end">
@@ -111,26 +97,12 @@
 								<a href="{{url('posted-job-revew')}}" class="btn next-step-btn d-flex  align-items-center" type="button">
 									<div class="text-start">Review</div>
 									<div class="ms-auto  d-flex align-items-center"><i class="fa-solid fa-circle-chevron-right" style="font-size:25px;"></i></div>
-
 								</a>
-
-
                             </div>
-
                         </div>
 					</div>
-
-
-
-
-
-
-
-
-
 			    </div>
-		    </div><!--//container-fluid-->
-	    </div><!--//app-content-->
+		   
 @endsection
 @section('script')
 @endsection

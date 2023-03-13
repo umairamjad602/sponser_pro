@@ -1,9 +1,9 @@
 @extends('layouts.dashboard')
 @section('style')
 @endsection
+@include('dashboard.modals.referrals-modal')
 @section('content')
-<div class="app-content pt-3 p-md-3 p-lg-4">
-		    <div class="container-fluid " style="padding:2%;">
+
 			    <div class="row  g-3 mb-4 align-items-center justify-content-between">
 
                     <!-- profile-cover-img -->
@@ -290,7 +290,7 @@
                                 <p style="color: #63AF31;">Jersey No. N/A</p>
                                 <div class="row">
                                     <div class="col-md-3 col-6">
-                                        <img src="assets/images/athlete-avatar.png" alt="" class="img-fluid">
+                                        <img src="{{asset('front-end/images/athlete-avatar.png')}}" alt="" class="img-fluid">
                                     </div>
                                     <div class="col-md-3 col-6">
                                         <h6 class="mb-1">Years Experience:</h6>
@@ -346,7 +346,7 @@
                                 <div class="col">
                                     <div class="row ">
                                         <div class="  col-12 social-media-statistics-col">
-                                            <img src="assets/images/insta.png" alt="">
+                                            <img src="{{asset('front-end/images/insta.png')}}" alt="">
 
                                             <div class="d-flex justify-content-between mt-4">
                                                 <div>
@@ -403,8 +403,7 @@
 
 
 
-		    </div><!--//container-fluid-->
-	    </div><!--//app-content-->
+		 
 manage-profile
 @endsection
 @section('script')

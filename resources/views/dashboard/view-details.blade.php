@@ -3,8 +3,7 @@
 @endsection
 @section('content')
 
-<div class="app-content pt-3 p-md-3 p-lg-4 posted-job-review">
-            <div class="container-fluid " style="padding:2%;">
+
                 <div class="row ">
                     <!-- brands-coverpic-col -->
                     <div class="col-12 brands-profile-cover"
@@ -426,9 +425,8 @@
 
 
                 </div>
-                <!--//container-fluid-->
-            </div>
-            <!--//app-content-->
+               
+     
 
 @endsection
 @section('script')

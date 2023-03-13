@@ -3,8 +3,7 @@
 @endsection
 @section('content')
 
-<div class="app-content pt-3 p-md-3 p-lg-4 sponser-tab">
-		    <div style="padding:2%;" class="container-fluid">
+
 			    <div class="row title-row g-3 py-3 mb-4 d-flex align-items-center justify-content-between">
 				    <div class="col-auto mt-0 d-flex" >
 			            <h1 class="app-page-title mb-0">My Posted Jobs </h1>
@@ -222,8 +221,7 @@
 
 			    </div><!--//row-->
 
-		    </div><!--//container-fluid-->
-	    </div><!--//app-content-->
+		  
 @endsection
 @section('script')
 @endsection

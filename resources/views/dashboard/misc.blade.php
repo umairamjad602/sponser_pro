@@ -2,61 +2,12 @@
 @section('style')
 @endsection
 
-<!-- add-question-step1-popup -->
-<div id="add-ques-step-1" class="popup-overlay add-ques-popup">
-	<div class="popup">
-		<div class="row  ">
-
-			<div class="col-12">
-				<a class="close" href="#">&times;</a>
-				<h4>What would you like to do?</h4>
-				<div class="col-12 text-center py-5">
-					<img src="assets/images/misc-bg.png" alt="" class="img-fluid">
-
-				</div>
-				<div class="col-12 d-lg-flex justify-content-end" >
-					<a href="#add-ques-step-2" class="btn add-ques-btn ms-auto" role="button">Add a Question<i class="fa-solid fa-plus px-2"></i></a>
-				</div>
-
-			</div>
-
-
-		</div>
-
-
-	</div>
-</div>
-
-<!-- add-question-step2-popup -->
-<div id="add-ques-step-2" class="popup-overlay add-ques-popup">
-	<div class="popup">
-		<div class="row  ">
-
-			<div class="col-12">
-				<a class="close" href="#">&times;</a>
-				<h4>What would you like to do?</h4>
-				<div class="col-12  py-3 text-end">
-					<textarea class="form-control mb-2" id="exampleFormControlTextarea1" placeholder="Add Your Question Here." rows="5"></textarea>
-					<a href="" class="remove-ques">Remove Question</a>
-				</div>
-				<div class="col-12 d-lg-flex justify-content-end" >
-
-					<a href="{{url('misc2')}}" class="btn add-ques-btn ms-auto" role="button">Add a Question<i class="fa-solid fa-plus px-2"></i></a>
-				</div>
-
-			</div>
-
-
-		</div>
-
-
-	</div>
-</div>
+@include('dashboard.modals.add-ques-step1')
+@include('dashboard.modals.add-ques-step2')
 
 @section('content')
 
-<div class="app-content pt-3 p-md-3 p-lg-4 ">
-		    <div style="padding:2%;">
+
 			    <div class="row title-row g-3 mb-4 py-3 align-items-center justify-content-between">
 				    <div class="col-auto mt-0 d-flex" >
 			            <h1 class="app-page-title mb-0">Create a job post </h1>
@@ -138,24 +89,7 @@
 
 
 			    </div><!--//row-->
-			    <!-- <nav class="app-pagination mt-5">
-					<ul class="pagination justify-content-center">
-						<li class="page-item disabled">
-							<a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
-					    </li>
-						<li class="page-item active"><a class="page-link" href="#">1</a></li>
-						<li class="page-item"><a class="page-link" href="#">2</a></li>
-						<li class="page-item"><a class="page-link" href="#">3</a></li>
-						<li class="page-item">
-						    <a class="page-link" href="#">Next</a>
-						</li>
-					</ul>
-				</nav> -->
-
-
-				<!--//app-pagination-->
-		    </div><!--//container-fluid-->
-	    </div><!--//app-content-->
+			   
 
 @endsection
 @section('script')

@@ -32,8 +32,11 @@
                     <p class="download-athlete-title mb-0">RESTRICTED BRANDS/BUSINESSES</p>
                     <p class="">WHICH STATES PROHIBIT NIL DEALS FROM "EXPLICIT BRANDS/BUSINESSES"?
                     </p>
-                    <a href="" class="btn download-btn text-start" type="button">Download<i
-                            class="fa-solid fa-download download-icon "></i></a>
+                    <a href="" class="btn download-btn d-flex mx-auto align-items-center" type="button">
+									<div class="text-start">Download</div>
+									<div class="ms-auto"><i class="fa-solid fa-download download-icon "></i></div>								
+								
+								</a>
                 </div>
 
 
@@ -50,8 +53,11 @@
                     <p class="download-athlete-title mb-0">RESTRICTED BRANDS/BUSINESSES</p>
                     <p class="">WHICH STATES PROHIBIT NIL DEALS FROM "EXPLICIT BRANDS/BUSINESSES"?
                     </p>
-                    <a href="" class="btn download-btn text-start" type="button">Download<i
-                            class="fa-solid fa-download download-icon "></i></a>
+                    <a href="" class="btn download-btn d-flex mx-auto align-items-center" type="button">
+									<div class="text-start">Download</div>
+									<div class="ms-auto"><i class="fa-solid fa-download download-icon "></i></div>								
+								
+								</a>
                 </div>
 
 
@@ -68,8 +74,11 @@
                     <p class="download-athlete-title mb-0">RESTRICTED BRANDS/BUSINESSES</p>
                     <p class="">WHICH STATES PROHIBIT NIL DEALS FROM "EXPLICIT BRANDS/BUSINESSES"?
                     </p>
-                    <a href="" class="btn download-btn text-start" type="button">Download<i
-                            class="fa-solid fa-download download-icon "></i></a>
+                    <a href="" class="btn download-btn d-flex mx-auto align-items-center" type="button">
+									<div class="text-start">Download</div>
+									<div class="ms-auto"><i class="fa-solid fa-download download-icon "></i></div>								
+								
+								</a>
                 </div>
 
 
@@ -86,8 +95,11 @@
                     <p class="download-athlete-title mb-0">RESTRICTED BRANDS/BUSINESSES</p>
                     <p class="">WHICH STATES PROHIBIT NIL DEALS FROM "EXPLICIT BRANDS/BUSINESSES"?
                     </p>
-                    <a href="" class="btn download-btn text-start" type="button">Download<i
-                            class="fa-solid fa-download download-icon "></i></a>
+                    <a href="" class="btn download-btn d-flex mx-auto align-items-center" type="button">
+									<div class="text-start">Download</div>
+									<div class="ms-auto"><i class="fa-solid fa-download download-icon "></i></div>								
+								
+								</a>
                 </div>
 
 
@@ -104,8 +116,11 @@
                     <p class="download-athlete-title mb-0">RESTRICTED BRANDS/BUSINESSES</p>
                     <p class="">WHICH STATES PROHIBIT NIL DEALS FROM "EXPLICIT BRANDS/BUSINESSES"?
                     </p>
-                    <a href="" class="btn download-btn text-start" type="button">Download<i
-                            class="fa-solid fa-download download-icon "></i></a>
+                    <a href="" class="btn download-btn d-flex mx-auto align-items-center" type="button">
+									<div class="text-start">Download</div>
+									<div class="ms-auto"><i class="fa-solid fa-download download-icon "></i></div>								
+								
+								</a>
                 </div>
 
 
@@ -122,8 +137,11 @@
                     <p class="download-athlete-title mb-0">RESTRICTED BRANDS/BUSINESSES</p>
                     <p class="">WHICH STATES PROHIBIT NIL DEALS FROM "EXPLICIT BRANDS/BUSINESSES"?
                     </p>
-                    <a href="" class="btn download-btn text-start" type="button">Download<i
-                            class="fa-solid fa-download download-icon "></i></a>
+                    <a href="" class="btn download-btn d-flex mx-auto align-items-center" type="button">
+									<div class="text-start">Download</div>
+									<div class="ms-auto"><i class="fa-solid fa-download download-icon "></i></div>								
+								
+								</a>
                 </div>
 
 

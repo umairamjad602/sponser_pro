@@ -17,10 +17,27 @@
 
     <title>{{ env('APP_NAME') }}</title>
 </head>
+<style>
+    .loader {
+        width: 100%;
+        height: 100vh;
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 11000000000;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+</style>
 
 <body>
    @include('dashboard.modals.login-modal')
    @include('dashboard.modals.registration-modal')
+   <div class="loader">
+    <h1>Loading...</h1>
+   </div>
     <!-- header -->
     <div style="background-image: url({{ asset('front-end/images/Sponser\ Pro.png') }});"
         class="hero-header-bg main-header">
@@ -526,13 +543,9 @@
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous">
     </script>
     <script>
-        // $(document).ready(function () {
-        //     $('#user-done').hide();
-        //     console.log(location.href);
-        //     if (location.href.includes("resgiter=true")) {
-        //         $('#user-done').show();
-        //     }
-        // })
+        $(document).ready(function () {
+            $('.loader').hide();
+        })
     </script>
 
 </body>

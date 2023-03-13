@@ -15,6 +15,7 @@
 
     <!-- FontAwesome JS-->
     <script defer src="{{ asset('front-end/assets/plugins/fontawesome/js/all.min.js') }}"></script>
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 
     <!-- App CSS -->
     <link id="theme-style" rel="stylesheet" href="{{ asset('front-end/assets/css/portal.css') }}">
@@ -22,8 +23,24 @@
     @yield('style')
     <title>Dashboard</title>
 </head>
-
+<style>
+    .loader {
+        width: 100%;
+        height: 100vh;
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 11000000000 !important;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+</style>
 <body class="app">
+<div class="loader">
+    <h1>Loading...</h1>
+   </div>
 @include('dashboard.modals.post-job')
     <header class="app-header ">
     <div class="app-header-inner">
@@ -298,5 +315,9 @@
     {{-- script --}}
     @yield('script')
 </body>
-
+<script>
+        $(document).ready(function () {
+            $('.loader').hide();
+        })
+    </script>
 </html>

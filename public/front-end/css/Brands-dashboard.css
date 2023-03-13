@@ -45,8 +45,8 @@
 .social-box p a{
     font-weight: 500;
     font-size: 15px;
-    
-    
+
+
     color: #3F89DF;
 }
 .job-sec h6{
@@ -71,7 +71,7 @@
     left: 0;
     right: 0;
     background: rgba(0, 0, 0, 0.7);
-    transition: opacity 500ms;
+    /* transition: opacity 500ms; */
     visibility: hidden;
     opacity: 0;
     z-index: 999;
@@ -81,7 +81,7 @@
     visibility: visible;
     opacity: 1;
   }
-  
+
   .popup {
     margin: 50px auto;
     background: #fff !important;
@@ -102,14 +102,14 @@
     font-weight: bold;
     text-decoration: none;
     color: #F82746 !important;
-  
+
   }
   .comp-profile-box{
     border: 1px solid #F82746;
     padding: 15px;
     margin-bottom: 10px;
     background-color: #FAFAFA;
-   
+
     border-radius: 10px;
   }
   .comp-profile-box h6{
@@ -121,7 +121,7 @@
     color: white !important;
     background-color:#F82746 !important;
     width: 120px;
-    
+
   }
   .popup-btn-red:hover{
     color:#F82746 ;
@@ -129,7 +129,7 @@
     border: 1px solid #F82746 ;
   }
 
-  
+
   /* popup end */
 
 /* dashboard-athelete proflie */
@@ -180,7 +180,7 @@
 
 }
 .social-followers-btn:hover{
-   
+
     background-color: transparent;
     color:#63AF31;
     border: 1px solid #63AF31;
@@ -219,7 +219,7 @@
     color: #8D8D8D;
     font-size: 14px;
     font-weight: 300;
-    
+
 }
 .profile-pic-update  p, .cover-pic-update  p{
     font-size: 14px;
@@ -310,17 +310,17 @@ color: #8D8D8D;
 }
 
 .nav-tabs .nav-link.active .job-count{
-    color:#63AF31  !important;   
+    color:#63AF31  !important;
 }
 .nav-tabs .nav-link{
     box-shadow: 0px 3px 8px rgba(216, 216, 216, 0.18);
 
-    
+
 }
 .brands-posted-job a{
     font-size: 14px;
     font-weight: 300;
-    
+
 
 }
 .brands-posted-job .pending{
@@ -351,12 +351,12 @@ color: #8D8D8D;
 }
 .brands-posted-job .dropdown-item{
     color: #777777;
-   
+
 }
 .brands-posted-job .dropdown-item:hover{
     color: #63AF31;
     background-color: transparent;
-   
+
 }
 /* view profile */
 .bulk-pay-btn{
@@ -444,12 +444,12 @@ color:#FF4C00;
     color: white;
     border-radius: 60px;
     margin-left: 20px;
-    width: 200px;  
+    width: 200px;
 }
 .Continue-btn:hover{
     border: 1px solid #63AF31;
     color: #63AF31;
-   
+
 }
 .border-green{
     background-color: white;
@@ -472,7 +472,7 @@ font-size: 16px;
     background-color: rgb(81, 204, 0, 0.25);
     color: #63AF31;
     padding: 10px;
-   
+
     border: 1px solid #63AF31;
 border-radius: 8px;
 font-weight: 500;
@@ -515,7 +515,7 @@ font-size: 16px;
     color:#606060;
     font-size: 18px;
     font-weight: 500;
-   
+
     padding-bottom: 10px;
 }
 .posted-jobs p{
@@ -575,7 +575,7 @@ color: #C3C3C3 !important;
     font-size: 18px;
     font-weight: 600;
     color: black;
-   
+
 }
 .visibility label{
     color:#606060;
@@ -738,7 +738,7 @@ border-radius: 8px;
 }
 .add-ques-popup .remove-ques{
     color: #FB003E !important;
-   
+
 }
 
 
@@ -748,7 +748,7 @@ border-radius: 8px;
 .edit-profile-brands{
     height: 40vh;
     border-radius: 12px;
-  
+
     color: white;
     background-size: cover;
     background-position: center center;
@@ -756,7 +756,7 @@ border-radius: 8px;
     display: grid;
     align-items: end;
     padding: 20px;
-    
+
 }
 
 .edit-profile-pic-brands{
@@ -792,7 +792,7 @@ padding: 20px;
 
 .brands-posted-jobs-card:hover{
     border: 1px solid #63AF31;
-    
+
 }
 .job-price{
     font-weight: 500;
@@ -821,7 +821,7 @@ padding: 20px;
     font-size: 20px;
     font-weight: bold;
     color: black;
-   
+
 
 }
 .brands-total-rating{
@@ -860,7 +860,7 @@ padding-bottom: 10px;
     background-color: #F4F4F4;
 }
 #add-payment .btn-secondary{
-    
+
 background: #FAFAFA;
 box-shadow: 0px 3px 8px rgba(216, 216, 216, 0.18);
 border-radius: 8px;
@@ -896,7 +896,7 @@ border-radius: 8px;
 .chat-names-col{
     background-color: white;
     height: 70vh;
-   
+
     overflow-y: scroll;
 
 }
@@ -915,8 +915,8 @@ box-shadow: 0px 2px 6px rgba(185, 185, 185, 0.18);
     background-color: white;
     height: 70vh;
     position: relative;
-  
-    
+
+
 }
 .mesages-container{
 overflow-y: scroll;
@@ -988,7 +988,7 @@ border: 1px solid #F0F0F0;
     display: none !important;
 }
 .chat-box .accordion-button:not(.collapsed) {
-  
+
     background-color:white !important;
     box-shadow: none !important;
     border: 1px solid #63AF31 !important;
@@ -1064,7 +1064,7 @@ padding: 8px;
     margin-top: 20px;
     margin-bottom: 25px;
 
-    
+
 }
 .social-media-statistics-col img{
     background-color: white;
@@ -1145,15 +1145,15 @@ border-radius: 8px;
         width: 100%;
     }
     .close-btn{
-      
+
         margin-left: 0px;
-       
+
     }
-  
+
     .Continue-btn{
-      
+
         margin-left: 0px;
-         
+
     }
 
 
@@ -1187,7 +1187,7 @@ border-radius: 8px;
         height: 70vh;
         overflow-y: scroll;
     }
- 
+
 }
 
 @media only screen and (max-width: 1199px) {
@@ -1195,5 +1195,3 @@ border-radius: 8px;
         width: 100%;
     }
 }
-
-

@@ -131,6 +131,7 @@ font-weight: 600 !important;
     visibility: hidden;
     opacity: 0;
     z-index: 999;
+    overflow-y:scroll;
   }
   .popup-overlay:target {
     visibility: visible;
@@ -144,6 +145,7 @@ font-weight: 600 !important;
     position: relative;
     transition: all 5s ease-in-out;
     z-index: 999 !important;
+    
   }
   
   .popup img{

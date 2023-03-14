@@ -32,7 +32,7 @@
             <div class="container ">
                 <nav class="navbar navbar-expand-lg ">
 
-                    <a class="navbar-brand" href="#"><img src="{{ asset('front-end/images/logo.png') }}"
+                    <a class="navbar-brand" href="#"><img src="{{ asset('front-end/images/logo-white.png') }}"
                             alt=""></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false"
@@ -430,7 +430,7 @@
 
     <!-- download our app -->
     <div class="container-fluid download-app sec-space text-center"
-        style=" background-image: url('images/Rectangle 3.png');">
+        style=" background-image: url({{ asset('front-end/images/Rectangle-3.png') }});">
         <div class="container">
             <div class="row d-flex align-items-center justify-content-center">
                 <div class="col-12">

@@ -24,9 +24,7 @@
     <title>Dashboard</title>
 </head>
 <body class="app">
-<!-- <div class="loader">
-    <h1 class="">Loading...</h1>
-   </div> -->
+
    <div class="loader_wrap"><div class="loader">Loading...</div></div>
 @include('dashboard.modals.post-job')
     <header class="app-header ">
@@ -52,7 +50,7 @@
 
 		            <div class="app-utilities col-auto">
 						<!-- athlete-btn -->
-						<a class="btn post-job-btn " href="{{url('anthelet-profile')}}#referrals" role="button">Refer An Athlete, Get 5$<i class="fa-solid fa-plus ps-3"></i></a>
+						<a class="btn post-job-btn " href="{{url('manage-athalets-profile')}}#referrals" role="button">Refer An Athlete, Get 5$<i class="fa-solid fa-plus ps-3"></i></a>
 						<!-- athlete-btn -->
 						<a class="btn post-job-btn " href="#post-job" role="button">Post a job <i class="fa-solid fa-plus"></i></a>
 						<div class="app-utility-item">
@@ -250,7 +248,7 @@
                         <li class="nav-item ">
 								<h6 class="nav-link-text" >Refer An Athlete</h6>
 									<p>Refer An Athlete, Get 5$</p>
-						<a  href="{{url('anthelet-profile')}}#referrals" role="button"><i class="fa-solid fa-circle-plus" style="color: #63AF31; font-size: 30px;"></i></a>
+						<a  href="{{url('manage-athalets-profile')}}#referrals" role="button"><i class="fa-solid fa-circle-plus" style="color: #63AF31; font-size: 30px;"></i></a>
 
 							</li>
                             <li class="nav-item">

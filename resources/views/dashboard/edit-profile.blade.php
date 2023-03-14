@@ -271,8 +271,8 @@
 
               </div>
 
-              <div class="row g-0 d-md-flex justify-content-md-end  mt-md-5 mt-3">
-                <div class="col-auto d-md-flex">
+              <div class="row g-0    mt-md-5 mt-3">
+                <div class="col-12 d-md-flex justify-content-md-end">
                     <a href="{{url('profile-screen')}}" class="btn Continue-btn d-flex  align-items-center" type="button">
                         <div class="text-start">Save</div>
                         <div class="ms-auto  d-flex align-items-center"><i class="fa-solid fa-circle-chevron-right" style="font-size:25px;"></i></div>

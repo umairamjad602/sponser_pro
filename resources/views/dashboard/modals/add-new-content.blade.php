@@ -40,10 +40,10 @@
             </div>
 
 
-				<div class="row g-0 d-md-flex justify-content-md-end  mt-md-5 mt-3">
-					<div class="col-auto d-md-flex">
+				<div class="row g-0   mt-md-5 mt-3">
+					<div class="col-12 d-md-flex justify-content-md-end">
 
-						<a href="{{url('/home')}}" class="btn close-btn d-flex  align-items-center mt-md-0 mt-3" type="button">
+						<a href="{{url('/home')}}" class="btn close-btn d-flex mb-md-0 mb-3  align-items-center mt-md-0 mt-3" type="button">
 							<div class="text-start">Cancel </div>
 							<div class="ms-auto  d-flex align-items-center"><i class="fa-solid fa-circle-chevron-right" style="font-size:25px;"></i></div>
 

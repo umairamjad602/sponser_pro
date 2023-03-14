@@ -393,7 +393,7 @@
                             </div>
                             <div class="row">
                                 <div class="col text-center mt-md-5 mt-2">
-                                    <img src="assets/images/undraw_reviews.png" alt="" class="img-fluid">
+                                    <img src="{{asset('front-end/images/undraw_reviews.png')}}" alt="" class="img-fluid">
                                 </div>
                             </div>
                         </div>

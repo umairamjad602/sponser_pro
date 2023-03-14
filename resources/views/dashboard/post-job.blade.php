@@ -69,7 +69,7 @@
                                             <div class="row gx-3">
 												<div class="col-lg-6 pt-3 ">
 													<div class="form-check  d-flex align-items-center no-of-athlets">
-														<img src="assets/images/ath-1.png" alt="">
+														<img src="{{asset('front-end/images/ath-1.png')}}" alt="">
 														<h6 class="mb-0 px-2">Preferred Payment Option</h6>
 														<input class="form-check-input ms-auto me-2" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
 
@@ -78,7 +78,7 @@
 												</div>
 												<div class="col-lg-6 pt-3 ">
 													<div class="form-check  d-flex align-items-center no-of-athlets">
-														<img src="assets/images/multi-ath.png" alt="">
+														<img src="{{asset('front-end/images/multi-ath.png')}}" alt="">
 														<h6 class="mb-0 px-2">Preferred Payment Option</h6>
 														<input class="form-check-input ms-auto me-2" type="radio" name="flexRadioDefault" id="flexRadioDefault2" >
 
@@ -256,7 +256,7 @@
                                             </ul>
 											<div class="text-center bg-white py-5" style="border-radius: 8px;">
 												<label for="file-input">
-													<img src="assets/images/cloud-computing.png" alt="" class="img-fluid ">
+													<img src="{{asset('front-end/images/cloud-computing.png')}}" alt="" class="img-fluid ">
 													<p>Drag or upload image</p>
 												  </label>
 												  <input id="file-input" type="file" class="d-none"/>

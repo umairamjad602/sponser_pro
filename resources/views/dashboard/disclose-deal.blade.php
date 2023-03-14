@@ -198,12 +198,11 @@
                                                 <div class="col-auto"><h3 class="app-page-title  mb-3 mb-lg-0 text-start">Exclusive * </h3> </div>
                                                 <div class="col-auto ms-md-auto" >
 													<input type="radio" class="btn-check" name="options" id="option1" autocomplete="off" checked>
-                                                     <label class="btn btn-secondary" for="option1">Non Exclusive Deal</label>
+                                                     <label class="btn btn-secondary mb-sm-0 mb-2" for="option1">Non Exclusive Deal</label>
 
                                                    <input type="radio" class="btn-check" name="options" id="option2" autocomplete="off">
                                                     <label class="btn btn-secondary" for="option2">Exclusive Deal</label>
-                                                    <!-- <a href="" class="btn me-2" style="margin-left: auto;">Non Exclusive Deal</a>
-                                                    <a href="" style="margin-left: auto;">Exclusive Deal</a> -->
+                                                 
                                                 </div>
                                             </div>
                                             <div class="my-2">
@@ -222,7 +221,7 @@
 											<div class="text-center bg-white py-5 mt-5" style="border-radius: 8px;">
 
 												<label for="file-input">
-													<img src="assets/images/cloud-computing.png" alt="" class="img-fluid ">
+													<img src="{{asset('front-end/images/cloud-computing.png')}}" alt="" class="img-fluid ">
 													<p>Drag or upload deal screen shots</p>
 												  </label>
 												  <input id="file-input" type="file" class="d-none"/>
@@ -250,12 +249,12 @@
 
                                         <div class="row g-0">
                                             <div class="col d-flex justify-content-end">
-												<a href="misc.html" class="btn  d-flex cancel-btn me-3 align-items-center" type="button" >
+												<a href="" class="btn  d-flex cancel-btn me-3 align-items-center" type="button" >
                                                     <div class="text-start">Cancel</div>
                                                     <div class="ms-auto  d-flex align-items-center"><i class="fa-solid fa-circle-chevron-right" style="font-size:25px;"></i></div>
 
                                                 </a>
-													<a href="misc.html" class="btn next-step-btn d-flex  align-items-center" type="button">
+													<a href="" class="btn next-step-btn d-flex  align-items-center" type="button">
 														<div class="text-start">Submit</div>
 														<div class="ms-auto  d-flex align-items-center"><i class="fa-solid fa-circle-chevron-right" style="font-size:25px;"></i></div>
 

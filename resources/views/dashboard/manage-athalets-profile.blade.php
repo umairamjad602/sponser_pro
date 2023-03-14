@@ -2,6 +2,8 @@
 @section('style')
 @endsection
 @include('dashboard.modals.referrals-modal')
+@include('dashboard.modals.add-new-content')
+@include('dashboard.modals.link-copied-modal')
 @section('content')
 
 			    <div class="row  g-3 mb-4 align-items-center justify-content-between">
@@ -20,7 +22,7 @@
                                 <div class="row text-center">
                                     <div class="col-12 d-flex justify-content-between">
                                         <a href="#link-copied"><img src="{{asset('front-end/images/send.png')}}" alt="" class="img-fluid"></a>
-                                      <a href="edit-profile.html"><img src="{{asset('front-end/images/edit-profile.png')}}" alt="" class="img-fluid" style="width:30px;"></a>
+                                      <a href="{{url('edit-profile')}}"><img src="{{asset('front-end/images/edit-profile.png')}}" alt="" class="img-fluid" style="width:30px;"></a>
 
                                     </div>
                                     <div class="col-12 my-3"><img src="{{asset('front-end/images/avatar.png')}}" alt="" class="img-fluid user-img"></div>
@@ -119,7 +121,7 @@
                                     <p class="mb-4">Sponserpro is a place for you to upload all your affiliate links. Sponserpro is to be shared across all your social media to drive sales and revenue for you and your sponsors.</p>
                                      <a href="{{url('sponsorpro-jobs')}}" class="sponserpro-link btn">Create your Sponserpro link</a>
                                 </div>
-                                <div class="col-12 d-flex justify-content-between">
+                                <div class="col-12 d-md-flex justify-content-between">
                                     <h4>POSTS</h4>
                                     <a href="#add-new-content" class="btn view-job-btn" style="border-radius: 8px;">Upload new content</a>
                                 </div>
@@ -404,7 +406,7 @@
 
 
 		 
-manage-profile
+
 @endsection
 @section('script')
 @endsection

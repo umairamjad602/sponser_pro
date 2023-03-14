@@ -1,6 +1,7 @@
 @extends('layouts.dashboard')
 @section('style')
 @endsection
+@include('dashboard.modals.advance-filter')
 @section('content')
 
 

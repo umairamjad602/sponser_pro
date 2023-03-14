@@ -208,9 +208,9 @@
                                     <div class="row d-lg-flex align-items-center py-2 accept-agreement">
                                         <div class="col-auto">
                                             <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter Your Name"></div>
-                                        <div class="col-auto ms-lg-auto">
-                                            <a href="" class="btn accept-btn" type="button">Accept Agreement</a>
-                                            <a href="" class="btn cancel-btn" type="button">Cancel</a></div>
+                                        <div class="col-auto ms-md-auto d-flex align-items-center">
+                                            <a href="" class="btn accept-btn me-3" type="button">Accept Agreement</a>
+                                            <a href="" class="btn cancel-btn" type="button" style="border-radius:8px; margin-top:0; width:auto; max-width:auto;">Cancel</a></div>
 
 
                                    </div>

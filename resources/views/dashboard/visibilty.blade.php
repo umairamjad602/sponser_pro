@@ -79,7 +79,7 @@
 										<h6 class="pt-4">WHO CAN SEE YOUR JOB ? *</h6>
 										<div class="col-lg-6 pt-3">
 											<div class="form-check  d-flex align-items-center">
-												<img src="assets/images/multi-ath.png" alt="">
+												<img src="{{asset('front-end/images/multi-ath.png')}}" alt="">
 												<h6 class="mb-0 px-2">All Sponserpro Athelete</h6>
 												<input class="form-check-input ms-auto me-2" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
 											  </div>

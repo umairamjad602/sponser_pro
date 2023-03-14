@@ -73,19 +73,19 @@
 								<div class="tab-pane active text-center" id="jobs" role="tabpanel" aria-labelledby="jobs-tab">
 
 								<img src="{{asset('front-end/images/postedjob-character.png')}}" alt="" class="img-fluid">
-								<h1>Ready to get paid? Find opportunities <a href="jobs.html" style="color: #63AF31;">here.</a> </h1>
+								<h1>Ready to get paid? Find opportunities <a href="{{url('jobs')}}" style="color: #63AF31;">here.</a> </h1>
 
 								</div>
 								<div class="tab-pane  text-center" id="pending" role="tabpanel" aria-labelledby="pending-tab">
 
 									<img src="{{asset('front-end/images/postedjob-character.png')}}" alt="" class="img-fluid">
-									<h1>Ready to get paid? Find opportunities <a href="jobs.html" style="color: #63AF31;">here.</a> </h1>
+									<h1>Ready to get paid? Find opportunities <a href="{{url('jobs')}}" style="color: #63AF31;">here.</a> </h1>
 
 									</div>
                                     <div class="tab-pane  text-center" id="applied" role="tabpanel" aria-labelledby="applied-tab">
 
                                         <img src="{{asset('front-end/images/postedjob-character.png')}}" alt="" class="img-fluid">
-                                        <h1>Ready to get paid? Find opportunities <a href="jobs.html" style="color: #63AF31;">here.</a> </h1>
+                                        <h1>Ready to get paid? Find opportunities <a href="{{url('jobs')}}" style="color: #63AF31;">here.</a> </h1>
 
                                         </div>
 
@@ -93,34 +93,34 @@
 									<div class="tab-pane  text-center" id="hired" role="tabpanel" aria-labelledby="hired-tab">
 
 										<img src="{{asset('front-end/images/postedjob-character.png')}}" alt="" class="img-fluid">
-										<h1>Ready to get paid? Find opportunities <a href="jobs.html" style="color: #63AF31;">here.</a> </h1>
+										<h1>Ready to get paid? Find opportunities <a href="{{url('jobs')}}" style="color: #63AF31;">here.</a> </h1>
 
 										</div>
 
 										<div class="tab-pane text-center" id="ongoing" role="tabpanel" aria-labelledby="ongoing-tab">
 
 											<img src="{{asset('front-end/images/postedjob-character.png')}}" alt="" class="img-fluid">
-											<h1>Ready to get paid? Find opportunities <a href="jobs.html" style="color: #63AF31;" >here.</a> </h1>
+											<h1>Ready to get paid? Find opportunities <a href="{{url('jobs')}}" style="color: #63AF31;" >here.</a> </h1>
 
 											</div>
 
 											<div class="tab-pane text-center" id="payment" role="tabpanel" aria-labelledby="payment-tab">
 
 												<img src="{{asset('front-end/images/postedjob-character.png')}}" alt="" class="img-fluid">
-                                                <h1>Ready to get paid? Find opportunities <a href="jobs.html" style="color: #63AF31;">here.</a> </h1>
+                                                <h1>Ready to get paid? Find opportunities <a href="{{url('jobs')}}" style="color: #63AF31;">here.</a> </h1>
 
 												</div>
 
 												<div class="tab-pane text-center" id="completed" role="tabpanel" aria-labelledby="completed-tab">
 
 													<img src="{{asset('front-end/images/postedjob-character.png')}}" alt="" class="img-fluid">
-													<h1>Ready to get paid? Find opportunities <a href="jobs.html" style="color: #63AF31;">here.</a> </h1>
+													<h1>Ready to get paid? Find opportunities <a href="{{url('jobs')}}" style="color: #63AF31;">here.</a> </h1>
 
 													</div>
                                                     <div class="tab-pane text-center" id="not-hired" role="tabpanel" aria-labelledby="not-hired-tab">
 
                                                         <img src="{{asset('front-end/images/postedjob-character.png')}}" alt="" class="img-fluid">
-                                                        <h1>Ready to get paid? Find opportunities <a href="jobs.html" style="color: #63AF31;">here.</a> </h1>
+                                                        <h1>Ready to get paid? Find opportunities <a href="{{url('jobs')}}" style="color: #63AF31;">here.</a> </h1>
 
                                                         </div>
 

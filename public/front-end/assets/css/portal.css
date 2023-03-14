@@ -11710,6 +11710,7 @@ border: none;
 }
 .post-job-btn:hover{
     border: 2px solid  #63AF31;
+    color:#63AF31;
 }
 .post-job-btn i{
     padding-left: 10px;

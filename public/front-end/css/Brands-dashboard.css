@@ -28,13 +28,13 @@
 } */
 .loader_wrap{
     position: fixed;
-    background: #63AF31;
+    background: white;
     height: 100vh;
     width: 100%;
     z-index: 11000000000 !important;
   }
   .loader {
-    color: #ffffff;
+    color: #63AF31;
     font-size: 90px;
     text-indent: -9999em;
     overflow: hidden;

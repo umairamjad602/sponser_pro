@@ -5,7 +5,7 @@
 
                 <div class="col-lg-7 col-sm-12 popup-col-1 d-flex justify-content-center align-items-center"
                     style="background-image: url({{ asset('front-end/images/heroBg.png') }});">
-                    <img src="{{ asset('front-end/images/logo.png') }}" class="img-fluid text-center" alt="">
+                    <img src="{{ asset('front-end/images/logo-white.png') }}" class="img-fluid text-center" alt="">
 
                 </div>
                 <div class="col-lg-5 col-sm-12 popup-col-2 ">

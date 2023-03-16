@@ -26,14 +26,14 @@
 
 
 							<div class=" col-12 col-sm-auto">
-								<form class="app-search-form docs-search">
-									<input type="text" placeholder="job title, keywords" name="search" class="form-control search-input">
+								<form class="app-search-form docs-search" >
+									<input type="text" placeholder="job title, keywords" name="search" class="form-control search-input" style="background-color:#F5F5F5;">
 									<button type="submit" class="btn search-btn btn-primary" value="Search"><i class="fa-solid fa-magnifying-glass"></i></button>
 								</form>
 							</div><!--//search-box-->
 							<div class=" col-12 col-sm-auto">
-								<form class="app-search-form docs-search">
-									<input type="text" placeholder="By Athletes" name="search" class="form-control search-input">
+								<form class="app-search-form docs-search" >
+									<input type="text" placeholder="By Athletes" name="search" class="form-control search-input" style="background-color:#F5F5F5;">
 									<button type="submit" class="btn search-btn btn-primary" value="Search"><i class="fa-solid fa-magnifying-glass"></i></button>
 								</form>
 							</div><!--//search-box-->

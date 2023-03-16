@@ -14,7 +14,7 @@
 
 
 								<div class=" col-12 col-sm-auto">
-									<form class="app-search-form docs-search mt-0 mt-md-3">
+									<form class="app-search-form docs-search mb-0">
 										<input type="text" placeholder="job title, keywords" name="search" class="form-control search-input">
 										<button type="submit" class="btn search-btn btn-primary" value="Search"><i class="fa-solid fa-magnifying-glass"></i></button>
 									</form>
@@ -35,7 +35,7 @@
 								    <input type="text" class="form-control" id="exampleFormControlInput1" style="background: #F5F5F5;" placeholder="$ Min Price - $ Max price" required>
 							    </div>
 								<div class=" col-12 col-sm-auto">
-									<form class="app-search-form docs-search mt-0 mt-md-3">
+									<form class="app-search-form docs-search mb-0">
 										<input type="text" placeholder="location" name="search" class="form-control search-input">
 										<button type="submit" class="btn search-btn btn-primary" value="Search"><img src="{{asset('front-end/images/location-icon.png')}}" alt="" style="width:20px;" ></button>
 									</form>
@@ -53,7 +53,7 @@
 			    </div><!--//row-->
 
 			    <div class="row g-3 job-sec">
-					<div class="row py-3">
+					<div class="row py-3 p-0">
 						<div class="col-auto">
 							<h1 class="app-page-sub-title  mb-0"> ALL JOBS </h1>
 						</div>

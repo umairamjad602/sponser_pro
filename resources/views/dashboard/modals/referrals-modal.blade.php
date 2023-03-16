@@ -3,7 +3,7 @@
         <div class="popup">
             <div class="row  ">
 
-                <div class="col-12">
+                <div class="col-12 p-0">
 					<a class="close" href="#">&times;</a>
                     <div class="d-md-flex align-items-center row">
 
@@ -16,7 +16,7 @@
 
                     </a>
                 </div>
-                <div class="col-lg-6 text-center">
+                <div class="col-lg-6 text-center mt-3">
                 <img src="{{asset('front-end/images/refer.png')}}" class="img-fluid">
                 </div>
             </div>

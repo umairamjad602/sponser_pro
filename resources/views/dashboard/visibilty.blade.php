@@ -33,7 +33,7 @@
 					</div>
 
 					<div class="row visibility">
-						<div class="col-12 ">
+						<div class="col-12 p-0">
 							<div class="tab-content py-4">
                                     <!-- step3 -->
 									<div class="tab-pane active " id="step3" role="tabpanel" aria-labelledby="step3-tab">

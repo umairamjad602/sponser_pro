@@ -56,7 +56,7 @@
                         <div class="row Social-media">
                             <h6 class="sub-title">Add social:</h6>
 
-                            <a href="" class=""><img src="{{asset('front-end/images/add-info.png')}}" alt=""></a>
+                            <a href="{{url('edit-profile')}}" class=""><img src="{{asset('front-end/images/add-info.png')}}" alt=""></a>
 
 
 
@@ -65,7 +65,7 @@
                         </div>
                         <div class="row business-categori my-4">
                             <h6 class="sub-title">Business Category:</h6>
-                            <a href="" class=""><img src="{{asset('front-end/images/add-info.png')}}" alt=""></a>
+                            <a href="{{url('edit-profile')}}" class=""><img src="{{asset('front-end/images/add-info.png')}}" alt=""></a>
                         </div>
 
 

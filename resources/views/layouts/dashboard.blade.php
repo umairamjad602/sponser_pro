@@ -11,7 +11,7 @@
 
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="shortcut icon" href="{{ asset('front-end/sponser-favicon.png') }}">
+    <link rel="shortcut icon" href="{{ asset('front-end/assets/images/sponser-favicon.png') }}">
 
     <!-- FontAwesome JS-->
     <script defer src="{{ asset('front-end/assets/plugins/fontawesome/js/all.min.js') }}"></script>

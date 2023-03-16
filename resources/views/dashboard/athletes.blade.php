@@ -11,7 +11,7 @@
                 <div class="row g-2 justify-content-start justify-content-md-end align-items-center">
 
                     <div class="app-search-box col-auto">
-                        <form class="app-search-form docs-search">
+                        <form class="app-search-form docs-search mb-0">
                             <input type="text" placeholder="Name" name="search" class="form-control search-input">
                             <button type="submit" class="btn search-btn btn-primary" value="Search"><i
                                     class="fas fa-search"></i></button>

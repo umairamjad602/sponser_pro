@@ -228,7 +228,7 @@
                                                 <div class="col-auto"><h3 class="app-page-title  mb-3 mb-lg-0 text-start">Exclusive * </h3> </div>
                                                 <div class="col-auto ms-md-auto" >
 													<input type="radio" class="btn-check" name="options" id="option1" autocomplete="off" checked>
-                                                     <label class="btn btn-secondary" for="option1">Non Exclusive Deal</label>
+                                                     <label class="btn btn-secondary mb-2 mb-md-0" for="option1">Non Exclusive Deal</label>
 
                                                    <input type="radio" class="btn-check" name="options" id="option2" autocomplete="off">
                                                     <label class="btn btn-secondary" for="option2">Exclusive Deal</label>

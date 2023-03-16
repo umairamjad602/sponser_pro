@@ -57,12 +57,12 @@
 						</div>
 					</div>
 
-					<div class="row py-3 ">
-						<div class="col-12 ">
+					<div class="row py-3 p-0 ">
+						<div class="col-12 p-0">
 							<div class="tab-content ">
 								<div class="tab-pane active " id="jobs" role="tabpanel" aria-labelledby="jobs-tab">
-                                    <div class="row">
-                                        <div class="col-6 col-md-4 col-xl-3 ">
+                                    <div class="row g-3">
+                                        <div class="col-12 col-md-4 col-xl-3 ">
                                             <div class=" brands-posted-job app-card app-card-doc shadow-sm  h-100">
 
                                                 <div class="app-card-body p-3 has-card-actions">
@@ -111,7 +111,7 @@
 
                                             </div><!--//app-card-->
                                         </div><!--//col-->
-                                        <div class="col-6 col-md-4 col-xl-3 ">
+                                        <div class="col-12 col-md-4 col-xl-3 ">
                                             <div class=" brands-posted-job app-card app-card-doc shadow-sm  h-100">
 
                                                 <div class="app-card-body p-3 has-card-actions">

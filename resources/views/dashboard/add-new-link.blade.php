@@ -44,7 +44,7 @@
                                         <label class="form-check-label" for="inlineRadio2">Social</label>
                                       </div>
                                    </div>
-                                   <a href="" class="btn " style="background-color: #63AF31; color: white;"> Save</a>
+                                   <a href="" class="btn " style="background-color: #63AF31; color: white; height:40px;"> Save</a>
                                 </div>
 
 
@@ -62,7 +62,7 @@
 
 
                         </div>
-                            <a href="" class="btn view-job-btn my-5">Add New Link</a>
+                            <a href="" class="btn view-job-btn my-5" >Add New Link</a>
 
 
                     </div>

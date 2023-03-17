@@ -118,6 +118,21 @@ Route::get('/profile-screen', function () {
 Route::get('/', function () {
     return view('home');
 });
+Route::get('/about-us', function () {
+    return view('about-us');
+});
+Route::get('/college-athletes', function () {
+    return view('college-athletes');
+});
+Route::get('/professional-athletes', function () {
+    return view('professional-athletes');
+});
+Route::get('/uni-athletic-departments', function () {
+    return view('uni-athletic-departments');
+});
+Route::get('/brands', function () {
+    return view('brands');
+});
 Route::get('/home', function () {
     return view('dashboard.home');
 });

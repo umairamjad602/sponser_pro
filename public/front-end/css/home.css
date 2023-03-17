@@ -107,6 +107,10 @@
     letter-spacing: 1px;
 
 }
+.hero-section h2 span{
+  font-family: 'Smooch Sans', sans-serif;
+  color: white;
+}
 .hero-section h1{
     color: white;
 }
@@ -213,4 +217,97 @@
     color: white;
     padding-left: 10%;
     padding-right: 10%;
+}
+
+
+
+/* about-us page */
+.resource-hub-card{
+  padding: 5px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 8px rgba(208, 208, 208, 0.25);
+  border-radius: 16px;
+}
+
+.resource-hub-card:hover{
+border: 1px solid #63AF31;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 3px 2px 16px rgba(174, 174, 174, 0.25);
+}
+.resource-hub-card .date{
+  color: #B7B4B4;
+  font-size: 16px;
+}
+.resource-hub-card .title{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  text-transform: capitalize;
+  
+  color: #63AF31;
+  
+  text-shadow: 2px 2px 4px #C7C7C7;
+}
+.resource-hub-card .description{
+  color: #565656;
+  font-size: 18px;
+  font-weight: 400;
+}
+.resource-hub-card .btn{
+  margin-top:15px;
+  margin-bottom:15px;
+border: 1px solid #63AF31;
+color: #63AF31;
+filter: drop-shadow(0px 3px 6px rgba(81, 204, 0, 0.25));
+border-radius: 60px;
+}
+.resource-hub-card .btn:hover{
+  color: white;
+   background-color: #63AF31;
+   border: 1px solid #63AF31;
+  }
+/* how-it-works */
+.how-it-works-cards-bg{
+ display: flex;
+ justify-content: center;
+  background-repeat: no-repeat;
+  padding: 40px;
+}
+.how-it-works-cards{
+  background-color: white;
+  border-radius: 10px;
+  padding: 30px 20px;
+  height: 350px;
+  border: 1px solid #63AF31;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.06);
+}
+.how-it-works-cards h6{
+  color: #8C8C8C;
+  font-size: 24px;
+  font-weight: 700;
+}
+.how-it-works-cards p{
+  font-family: 'Montserrat';
+font-weight: 400;
+font-size: 18px;
+color: #242424;
+line-height: 23px;
+
+}
+.how-it-works-img-text-col{
+background-repeat: no-repeat;
+background-position: left top;
+
+}
+.how-it-works-img-text-col h2{
+  font-size: 32px !important;
+  text-shadow: 2px 2px 4px #C7C7C7;
+}
+.how-it-works-img-text-col p{
+  
+font-family: 'Montserrat';
+font-weight: 400;
+font-size: 18px;
+line-height: 23px;
+color: #242424;
 }

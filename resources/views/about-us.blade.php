@@ -8,6 +8,7 @@
     <link rel="shortcut icon" href="{{ asset('front-end/assets/images/sponser-favicon.png') }}">
     <link rel="stylesheet" href="{{ asset('front-end/css/style.css') }}">
     <link rel="stylesheet" href="{{ asset('front-end/css/home.css') }}">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
         integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -25,7 +26,7 @@
     <div class="loader_wrap"><div class="loader">Loading...</div></div> 
   
     <!-- header -->
-    <div style="background-image: url({{ asset('front-end/images/Sponser\ Pro.png') }});"
+    <div style="background-image: url({{ asset('front-end/images/aboutus-banner.png') }});"
         class="hero-header-bg main-header">
         <header>
 
@@ -91,10 +92,9 @@
             <div class="container">
                 <div class="row">
                     <div class="col">
-                        <h2>For all businesses and college athletes
+                        <h2>We’re On a Mission to Change the
                         </h2>
-                        <h1 class="">GROW WITH SPONSORPRO</h1>
-                        <p>Build partnerships locally and nationally while <br> monetizing your NIL.</p>
+                        <h1 class="">Game of Athletic Endorsements</h1>
                         <button class="btn bg-green-btn ">BRAND SIGN UP <i
                                 class="fa-solid fa-circle-chevron-right px-1"></i></button>
                         <button class="btn border-white-btn mx-3">ATHLETE SIGN UP <i
@@ -197,10 +197,11 @@
         <div class="container">
             <div class="row d-flex justify-content-center align-items-center gy-4">
                 <div class="col-md-6 col-sm-12">
-                    <h4>Opportunities for businesses of all sizes</h4>
-                    <h3>SponsorPro makes it easy and affordable to connect with athletes.
+                    <h4>What do you want to learn ?</h4>
+                    <h3>We don’t work for our clients, we work with them.
+
                     </h3>
-                    <button class="btn p-0"> For Brands <i class="fa-solid fa-caret-right"></i></button>
+                    <button class="btn p-0">  View All <i class="fa-solid fa-caret-right"></i></button>
                 </div>
                 <div class="col-md-6 col-sm-12">
                     <div class="row d-flex justify-content-center align-items-center">
@@ -234,54 +235,17 @@
         <div class="container">
             <div class="row gx-5 d-flex align-items-center justify-content-center">
 
-                <div class="col-md-6 col-sm-12 ">
-                    <p>Partner with local and national businesses</p>
-                    <h2 class="main-heading">Cash in on your NIL today!</h2>
+                <div class="col-lg-6 col-12 ">
+                    <p>ABOUT US</p>
+                    <h2 class="pb-2">We are Former Sports <span style="color:#63AF31;">Players and Lifelong Fans</span></h2>
+                    <p>And our overarching mission reflects how much we care about sports and the people involved in them. We strive to bring a human element to brand partnerships in order to create something more meaningful. <br> Our company was founded in 2019 by Sports Marketing professional Chase Garrett. We are proud to be a Denver-based company connecting brands of all sizes with professional athletes looking for marketing and endorsement opportunities.</p>
 
 
-                    <div class="accordion my-5" id="accordionPanelsStayOpenExample">
-                        <div class="accordion-item my-3">
-                            <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
-                                    aria-controls="panelsStayOpen-collapseOne">
-                                    College Athletes
-                                </button>
-                            </h2>
-                            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
-                                aria-labelledby="panelsStayOpen-headingOne">
-                                <div class="accordion-body">
-                                    <p> We’re FREE for all college athletes.</p>
-                                    <button class="btn bg-green-btn">Learn more <i
-                                            class="fa-solid fa-arrow-up"></i></button>
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item  my-3">
-                            <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
-                                    aria-controls="panelsStayOpen-collapseTwo">
-                                    Brands
-
-                                </button>
-                            </h2>
-                            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
-                                aria-labelledby="panelsStayOpen-headingTwo">
-                                <div class="accordion-body">
-                                    <p> Expand your customer base and grow your business.</p>
-                                    <button class="btn bg-green-btn">Learn more <i
-                                            class="fa-solid fa-arrow-up"></i></button>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
+                   
 
                 </div>
-                <div class="col-md-6 col-sm-12">
-                    <img src="{{ asset('front-end/images/Frame 6356139.png') }}" alt="" class="img-fluid">
+                <div class="col-lg-6 col-12">
+                    <img src="{{ asset('front-end/images/former-sports.png') }}" alt="" class="img-fluid">
                 </div>
             </div>
         </div>
@@ -289,150 +253,84 @@
     </div>
 
     <!-- case studies -->
-    <div class="container-fluid carosel-sec sec-space">
+    <div class="container-fluid carosel-sec sec-space" style=" background-image: url({{ asset('front-end/images/light-green-bg.png') }});">
         <div class="container">
-            <div class="row d-flex justify-content-center align-items-center">
-                <p>CASE STUDIES</p>
-                <h2 class="proud-heading">PROUD PARTNERS WITH
-                </h2>
-                <div class="col-md-8 col-sm-12">
-                    <div class="d-flex align-items-center py-5 ">
+           <div class="row">
+            <div class="col-md-3">
+            <img src="{{ asset('front-end/images/connection.png') }}" alt="" class="img-fluid">
+            </div>
+            <div class="col-md-3">
+            <img src="{{ asset('front-end/images/empowerment.png') }}" alt="" class="img-fluid mt-md-5 pt-md-5">
+            </div>
+            <div class="col-md-3">
+            <img src="{{ asset('front-end/images/innovation.png') }}" alt="" class="img-fluid">
+            </div>
+            <div class="col-md-3">
+            <img src="{{ asset('front-end/images/inclusivity.png') }}" alt="" class="img-fluid mt-md-5 pt-md-5">
+            </div>
+           </div>
+        </div>
+    </div>
 
-                        <div class="container">
-                            <div id="mycarousel" class="carousel slide" data-bs-ride="carousel">
-                                <ol class="carousel-indicators">
-                                    <li data-bs-target="#mycarousel" data-bs-slide-to="0" class="active"></li>
-                                    <li data-bs-target="#mycarousel" data-bs-slide-to="1"></li>
-                                    <li data-bs-target="#mycarousel" data-bs-slide-to="2"></li>
-                                </ol>
-                                <div class="carousel-inner">
-                                    <div class="carousel-item active">
-                                        <div class="row">
-                                            <div class="col-lg-6 ">
-                                                <img src="{{ asset('front-end/images/unsplash_MTZTGvDsHFY.png') }}"
-                                                    class="d-block w-100 img-fluid" alt="...">
 
-                                            </div>
-                                            <div class="col-lg-6 py-3">
-                                                <div class=" d-flex flex-column justify-content-center  px-3">
-                                                    <h6>The Players’ Lounge</h6>
-                                                    <p>Crocs wanted to leverage athlete influencer marketing to
-                                                        emphasize the universality of their footwear. With Icon Source,
-                                                        they quickly found five athletes who fit their campaigns in a
-                                                        pool of over 400,000</p>
-                                                    <div class="row">
-                                                        <div class="col-6 d-flex">
-                                                            <img src="{{ asset('front-end/images/VideoCamera.png') }}"
-                                                                alt="">
-                                                            <span>
-                                                                <p><strong>7.6M</strong></p>
-                                                                <p>IMPRESSIONS</p>
-                                                            </span>
-                                                        </div>
-                                                        <div class="col-6 d-flex">
-                                                            <img src="{{ asset('front-end/images/VideoCamera (1).png') }}"
-                                                                alt="">
-                                                            <span>
-                                                                <p><strong>369k</strong></p>
-                                                                <p>ENGAGEMENTS</p>
-                                                            </span>
+    <!-- catch us in the news -->
+    <div class="container-fluid sec-space accor-sec">
+        <div class="container">
+            <div class="row g-5 ">
 
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
+                <div class="col-12 ">
+                    <p>Find More Information in Our Resource Hub</p>
+                    <h2 class="main-heading">Catch Us in the News</h2>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="resource-hub-card">
+                        <div>
+                            <img src="{{ asset('front-end/images/resourse-hub-img1.png') }}" alt="" class="img-fluid">
 
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <div class="row">
-                                            <div class="col-lg-6 ">
-                                                <img src="{{ asset('front-end/images/unsplash_MTZTGvDsHFY.png') }}"
-                                                    class="d-block w-100 img-fluid" alt="...">
-
-                                            </div>
-                                            <div class="col-lg-6 py-3">
-                                                <div class=" d-flex flex-column justify-content-center  px-3">
-                                                    <h6>The Players’ Lounge</h6>
-                                                    <p>Crocs wanted to leverage athlete influencer marketing to
-                                                        emphasize the universality of their footwear. With Icon Source,
-                                                        they quickly found five athletes who fit their campaigns in a
-                                                        pool of over 400,000</p>
-                                                    <div class="row">
-                                                        <div class="col-6 d-flex">
-                                                            <img src="{{ asset('front-end/images/VideoCamera.png') }}"
-                                                                alt="">
-                                                            <span>
-                                                                <p><strong>7.6M</strong></p>
-                                                                <p>IMPRESSIONS</p>
-                                                            </span>
-                                                        </div>
-                                                        <div class="col-6 d-flex">
-                                                            <img src="{{ asset('front-end/images/VideoCamera (1).png') }}"
-                                                                alt="">
-                                                            <span>
-                                                                <p><strong>369k</strong></p>
-                                                                <p>ENGAGEMENTS</p>
-                                                            </span>
-
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <div class="row">
-                                            <div class="col-lg-6 ">
-                                                <img src="{{ asset('front-end/images/unsplash_MTZTGvDsHFY.png') }}"
-                                                    class="d-block w-100 img-fluid" alt="...">
-
-                                            </div>
-                                            <div class="col-lg-6 py-3 ">
-                                                <div class=" d-flex flex-column justify-content-center  px-3">
-                                                    <h6>The Players’ Lounge</h6>
-                                                    <p>Crocs wanted to leverage athlete influencer marketing to
-                                                        emphasize the universality of their footwear. With Icon Source,
-                                                        they quickly found five athletes who fit their campaigns in a
-                                                        pool of over 400,000</p>
-                                                    <div class="row">
-                                                        <div class="col-6 d-flex">
-                                                            <img src="{{ asset('front-end/images/VideoCamera.png') }}"
-                                                                alt="">
-                                                            <span>
-                                                                <p><strong>7.6M</strong></p>
-                                                                <p>IMPRESSIONS</p>
-                                                            </span>
-                                                        </div>
-                                                        <div class="col-6 d-flex">
-                                                            <img src="{{ asset('front-end/images/VideoCamera (1).png') }}"
-                                                                alt="">
-                                                            <span>
-                                                                <p><strong>369k</strong></p>
-                                                                <p>ENGAGEMENTS</p>
-                                                            </span>
-
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
                         </div>
-
+                        <div class="p-2">
+                            <p class="date">08-10-2022</p>
+                            <p class="title">Ground-Breaking Deal between Icon Source</p>
+                            <p class="description">John Brenkus, Creator and Host of ESPN Sport Science and The NIL House, Signs Ground-Breaking Deal with Icon Source</p>
+                            <button class="btn ">READ MORE<i
+                                class="fa-solid fa-circle-chevron-right px-1"></i></button>
+                        </div>
                     </div>
-
                 </div>
-                <div class="col-md-4 col-sm-12">
-                    <img src="{{ asset('front-end/images/carousel-img.png') }}" alt="" class="img-fluid">
+                <div class="col-lg-4 col-md-6">
+                    <div class="resource-hub-card">
+                        <div>
+                            <img src="{{ asset('front-end/images/resourse-hub-img2.png') }}" alt="" class="img-fluid">
 
+                        </div>
+                        <div class="p-2">
+                            <p class="date">08-10-2022</p>
+                            <p class="title">Ground-Breaking Deal between Icon Source</p>
+                            <p class="description">John Brenkus, Creator and Host of ESPN Sport Science and The NIL House, Signs Ground-Breaking Deal with Icon Source</p>
+                            <button class="btn ">READ MORE<i
+                                class="fa-solid fa-circle-chevron-right px-1"></i></button>
+                        </div>
+                    </div>
                 </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="resource-hub-card">
+                        <div>
+                            <img src="{{ asset('front-end/images/resourse-hub-img3.png') }}" alt="" class="img-fluid">
+
+                        </div>
+                        <div class="p-2">
+                            <p class="date">08-10-2022</p>
+                            <p class="title">Ground-Breaking Deal between Icon Source</p>
+                            <p class="description">John Brenkus, Creator and Host of ESPN Sport Science and The NIL House, Signs Ground-Breaking Deal with Icon Source</p>
+                            <button class="btn ">READ MORE<i
+                                class="fa-solid fa-circle-chevron-right px-1"></i></button>
+                        </div>
+                    </div>
+                </div>
+                
             </div>
         </div>
+
     </div>
 
     <!-- download our app -->

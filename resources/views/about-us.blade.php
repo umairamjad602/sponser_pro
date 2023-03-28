@@ -14,7 +14,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-       
+
     <title>{{ env('APP_NAME') }}</title>
 </head>
 
@@ -23,8 +23,8 @@
 
    @include('dashboard.modals.login-modal')
    @include('dashboard.modals.registration-modal')
-    <div class="loader_wrap"><div class="loader">Loading...</div></div> 
-  
+    <div class="loader_wrap"><div class="loader">Loading...</div></div>
+
     <!-- header -->
     <div style="background-image: url({{ asset('front-end/images/aboutus-banner.png') }});"
         class="hero-header-bg main-header">
@@ -59,7 +59,7 @@
                                     <li><a class="dropdown-item" href="#">UNIVERSITIES & ATHLETIC DEPARTMENTS</a></li>
                                     <li><a class="dropdown-item" href="#">BRANDS</a></li>
                                     <li><a class="dropdown-item" href="#">MARKETING AGENCIES</a></li>
-                                    
+
                                 </ul>
                             </li>
                             <li class="nav-item">
@@ -241,7 +241,7 @@
                     <p>And our overarching mission reflects how much we care about sports and the people involved in them. We strive to bring a human element to brand partnerships in order to create something more meaningful. <br> Our company was founded in 2019 by Sports Marketing professional Chase Garrett. We are proud to be a Denver-based company connecting brands of all sizes with professional athletes looking for marketing and endorsement opportunities.</p>
 
 
-                   
+
 
                 </div>
                 <div class="col-lg-6 col-12">
@@ -256,17 +256,29 @@
     <div class="container-fluid carosel-sec sec-space" style=" background-image: url({{ asset('front-end/images/light-green-bg.png') }});">
         <div class="container">
            <div class="row">
-            <div class="col-md-3">
-            <img src="{{ asset('front-end/images/connection.png') }}" alt="" class="img-fluid">
+            <div class="col-md-3 aboutus-cards-bg">
+                <div>
+                <img src="{{ asset('front-end/images/connection.png') }}" alt="" class="img-fluid">
+                <h6>Connection</h6>
+                </div>
             </div>
-            <div class="col-md-3">
-            <img src="{{ asset('front-end/images/empowerment.png') }}" alt="" class="img-fluid mt-md-5 pt-md-5">
+            <div class="col-md-3 aboutus-cards-bg">
+                <div>
+                <img src="{{ asset('front-end/images/empowerment.png') }}" alt="" class="img-fluid mt-md-5 pt-md-5">
+                <h6>Empowerment</h6>
+                </div>
             </div>
-            <div class="col-md-3">
-            <img src="{{ asset('front-end/images/innovation.png') }}" alt="" class="img-fluid">
+            <div class="col-md-3 aboutus-cards-bg">
+                <div>
+                <img src="{{ asset('front-end/images/innovation.png') }}" alt="" class="img-fluid">
+                <h6>Innovation</h6>
+                </div>
             </div>
-            <div class="col-md-3">
-            <img src="{{ asset('front-end/images/inclusivity.png') }}" alt="" class="img-fluid mt-md-5 pt-md-5">
+            <div class="col-md-3 aboutus-cards-bg">
+                <div>
+                <img src="{{ asset('front-end/images/inclusivity.png') }}" alt="" class="img-fluid mt-md-5 pt-md-5">
+                <h6>Inclusivity</h6>
+                </div>
             </div>
            </div>
         </div>
@@ -327,7 +339,7 @@
                         </div>
                     </div>
                 </div>
-                
+
             </div>
         </div>
 
@@ -434,7 +446,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous">
     </script>
-   
+
 
 </body>
 	<script>
